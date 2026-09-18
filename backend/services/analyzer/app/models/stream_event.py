@@ -9,5 +9,5 @@ class BlockEvent(BaseModel):
 class CompleteEvent(BaseModel):
     event: Literal["complete"] = "complete"
     document_id: str
-    block_count : str
+    block_count : int
 

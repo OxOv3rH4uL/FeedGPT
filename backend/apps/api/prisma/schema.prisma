@@ -7,10 +7,29 @@ datasource db {
   provider = "postgresql" 
 }
 
+model Block{
+  id           String   @id @default(uuid())
+  document_id  String 
+  type         String
+  element_type String
+  page         Int?
+  sequence     Int
+  coords       Json?
+  text         String?
+  metadata     Json?
+  createdAt    DateTime @default(now())
+  document     Document @relation(fields: [document_id], references: [id], onDelete: Cascade)
+
+  @@unique([document_id,sequence])
+  @@index([document_id])
+  @@index([document_id,page])
+}
+
 model Document {
   id         String   @id @default(uuid())
   name       String
   url        String
+  blocks     Block[]
   uploadedAt DateTime @default(now())
   @@map("documents")
 }

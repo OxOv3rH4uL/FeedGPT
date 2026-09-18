@@ -1,15 +1,15 @@
-import fastify from "fastify";
+import { buildApp } from "./app";
 
-export function buildApp(){
-    const app= fastify({
-        logger:true
-    })
-    
-    app.get("/health", async()=>{
-        return {
-            status:"alive broski"
-        };
-    });
+const app = buildApp()
 
-    return app
+const start = async() =>{
+    try{
+        await app.listen({port:9998});
+        console.log("Server is running periya bhai")
+    }catch(err){
+        app.log.error(err);
+        console.error(err);
+    }
 }
+
+start();
