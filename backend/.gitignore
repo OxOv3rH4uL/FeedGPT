@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+migrations
+notes.txt
+generated
+.venv
+.vscode
+__pycache__

@@ -1,0 +1,1094 @@
+[
+    {
+        "type": "Image",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.1175537109375), np.float64(200.17828369140625)), (np.float64(203.1175537109375), np.float64(376.6532287597656)), (np.float64(597.3848876953125), np.float64(376.6532287597656)), (np.float64(597.3848876953125), np.float64(200.17828369140625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90176A50>)",
+        "text": "=ARnS Sean SERLIN <| |>| A Wn X m Dn La i i"
+    },
+    {
+        "type": "Text",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2524.0), np.float64(209.0)), (np.float64(2524.0), np.float64(333.0)), (np.float64(2698.0), np.float64(333.0)), (np.float64(2698.0), np.float64(209.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F95218830>)",
+        "text": "AD 2025"
+    },
+    {
+        "type": "Header",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1294.076171875), np.float64(476.8664855957031)), (np.float64(1294.076171875), np.float64(521.9942016601562)), (np.float64(1598.9989013671875), np.float64(521.9942016601562)), (np.float64(1598.9989013671875), np.float64(476.8664855957031))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F8EFB3110>)",
+        "text": "AT A GLANCE"
+    },
+    {
+        "type": "Title",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(194.3188018798828), np.float64(642.9130859375)), (np.float64(194.3188018798828), np.float64(932.6400146484375)), (np.float64(2123.80859375), np.float64(932.6400146484375)), (np.float64(2123.80859375), np.float64(642.9130859375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F8E8D2EA0>)",
+        "text": "Productivity: East-west gap replaced by urban-rural gap"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(205.0677947998047), np.float64(914.4518432617188)), (np.float64(205.0677947998047), np.float64(965.0215454101562)), (np.float64(532.0181274414062), np.float64(965.0215454101562)), (np.float64(532.0181274414062), np.float64(914.4518432617188))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F8EEE8110>)",
+        "text": "By Martin Gornig"
+    },
+    {
+        "type": "ListItem",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(208.5), np.float64(1064.4454345703125)), (np.float64(208.5), np.float64(1200.86669921875)), (np.float64(2604.720947265625), np.float64(1200.86669921875)), (np.float64(2604.720947265625), np.float64(1064.4454345703125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90115C10>)",
+        "text": "- Germany seems permanently divided economically; labor productivity in the east and west has barely converged for years"
+    },
+    {
+        "type": "ListItem",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(210.08917236328125), np.float64(1230.23974609375)), (np.float64(210.08917236328125), np.float64(1368.0546875)), (np.float64(2666.9091796875), np.float64(1368.0546875)), (np.float64(2666.9091796875), np.float64(1230.23974609375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F95218590>)",
+        "text": "- Gaps are especially large in manufacturing and business services, sectors in which productivity is particularly high in the west"
+    },
+    {
+        "type": "ListItem",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(201.24786376953125), np.float64(1399.5904541015625)), (np.float64(201.24786376953125), np.float64(1531.978759765625)), (np.float64(2648.949462890625), np.float64(1531.978759765625)), (np.float64(2648.949462890625), np.float64(1399.5904541015625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B4A0>)",
+        "text": "- There is usually little difference when comparing economic situations of cities and districts of the same type, except in the case of major cities"
+    },
+    {
+        "type": "ListItem",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(201.98268127441406), np.float64(1564.6217041015625)), (np.float64(201.98268127441406), np.float64(1697.4552001953125)), (np.float64(2687.0283203125), np.float64(1697.4552001953125)), (np.float64(2687.0283203125), np.float64(1564.6217041015625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F952189E0>)",
+        "text": "- Economic power becoming increasingly heterogeneous; inequalities between districts in both east and west continue to grow"
+    },
+    {
+        "type": "ListItem",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(202.5738067626953), np.float64(1732.985595703125)), (np.float64(202.5738067626953), np.float64(1855.473388671875)), (np.float64(2592.843505859375), np.float64(1855.473388671875)), (np.float64(2592.843505859375), np.float64(1732.985595703125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B770>)",
+        "text": "- Active regional policy that equally supports regions that have fallen behind in the east and west is needed"
+    },
+    {
+        "type": "Title",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(228.5434112548828), np.float64(2152.180908203125)), (np.float64(228.5434112548828), np.float64(2204.231201171875)), (np.float64(1459.715087890625), np.float64(2204.231201171875)), (np.float64(1459.715087890625), np.float64(2152.180908203125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521BCE0>)",
+        "text": "Productivity gap has nearly disappeared in rural regions"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(241.46044921875), np.float64(2215.83837890625)), (np.float64(241.46044921875), np.float64(2261.498291015625)), (np.float64(1499.4818115234375), np.float64(2261.498291015625)), (np.float64(1499.4818115234375), np.float64(2215.83837890625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B890>)",
+        "text": "Producitvity in Eastern Germany in percent of national average"
+    },
+    {
+        "type": "Text",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(757.0), np.float64(2342.0)), (np.float64(757.0), np.float64(2384.0)), (np.float64(1196.0), np.float64(2384.0)), (np.float64(1196.0), np.float64(2342.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521ACF0>)",
+        "text": "1) 2004 M2014 M2024"
+    },
+    {
+        "type": "Image",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(293.2430419921875), np.float64(2414.34814453125)), (np.float64(293.2430419921875), np.float64(3071.88427734375)), (np.float64(2658.000244140625), np.float64(3071.88427734375)), (np.float64(2658.000244140625), np.float64(2414.34814453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521BA40>)",
+        "text": "Rural regions Urban regions Very Rural and Rural and Densification — Densification Urban and Urban City and Metropolitan Metropolis peripheral peripheral central and peripheral and central peripheral and central central area"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(255.11305236816406), np.float64(3094.1220703125)), (np.float64(255.11305236816406), np.float64(3127.46044921875)), (np.float64(1464.947509765625), np.float64(3127.46044921875)), (np.float64(1464.947509765625), np.float64(3094.1220703125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521BB90>)",
+        "text": "Note: Producitvity measured as gross value added in current prices per employed person."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(270.71539306640625), np.float64(3132.449951171875)), (np.float64(270.71539306640625), np.float64(3164.82763671875)), (np.float64(2274.0009765625), np.float64(3164.82763671875)), (np.float64(2274.0009765625), np.float64(3132.449951171875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521BAD0>)",
+        "text": "Sources: National Accounts of the Federal States Working group (Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Lander); author's calculations."
+    },
+    {
+        "type": "Text",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2400.0), np.float64(3134.0)), (np.float64(2400.0), np.float64(3158.0)), (np.float64(2650.0), np.float64(3158.0)), (np.float64(2650.0), np.float64(3134.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F952190D0>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "Title",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1202.7550048828125), np.float64(3406.194580078125)), (np.float64(1202.7550048828125), np.float64(3442.899169921875)), (np.float64(1694.10009765625), np.float64(3442.899169921875)), (np.float64(1694.10009765625), np.float64(3406.194580078125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521A3C0>)",
+        "text": "FROM THE AUTHORS"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(215.18772888183594), np.float64(3526.055419921875)), (np.float64(215.18772888183594), np.float64(3699.188232421875)), (np.float64(2470.023681640625), np.float64(3699.188232421875)), (np.float64(2470.023681640625), np.float64(3526.055419921875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521BF50>)",
+        "text": "“When discussing the economic catching-up process following reunification, the focus is often on the inequality that still exists. Focusing on that, however, overlooks the fact that apart from major cities, there are hardly any differences between cities and districts in the east and their western German counterparts. “"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 1,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(212.77108764648438), np.float64(3799.199462890625)), (np.float64(212.77108764648438), np.float64(3839.42138671875)), (np.float64(578.9937133789062), np.float64(3839.42138671875)), (np.float64(578.9937133789062), np.float64(3799.199462890625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F952184A0>)",
+        "text": "— Martin Gornig —"
+    },
+    {
+        "type": "Image",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1173.2156982421875), np.float64(176.0638427734375)), (np.float64(1173.2156982421875), np.float64(411.6589050292969)), (np.float64(1708.3624267578125), np.float64(411.6589050292969)), (np.float64(1708.3624267578125), np.float64(176.0638427734375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F900CCE00>)",
+        "text": "< | ill > | A WY i"
+    },
+    {
+        "type": "Title",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(218.06365966796875), np.float64(695.3316040039062)), (np.float64(218.06365966796875), np.float64(986.1953125)), (np.float64(2418.459228515625), np.float64(986.1953125)), (np.float64(2418.459228515625), np.float64(695.3316040039062))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B410>)",
+        "text": "Productivity: East-west gap replaced by urban-rural gap"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(212.47396850585938), np.float64(1060.2586669921875)), (np.float64(212.47396850585938), np.float64(1101.5447998046875)), (np.float64(523.74853515625), np.float64(1101.5447998046875)), (np.float64(523.74853515625), np.float64(1060.2586669921875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F952183B0>)",
+        "text": "By Martin Gornig"
+    },
+    {
+        "type": "Title",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(207.40908813476562), np.float64(1461.3017578125)), (np.float64(207.40908813476562), np.float64(1498.880126953125)), (np.float64(448.3962097167969), np.float64(1498.880126953125)), (np.float64(448.3962097167969), np.float64(1461.3017578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521BD70>)",
+        "text": "ABSTRACT"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(208.6060028076172), np.float64(1572.129150390625)), (np.float64(208.6060028076172), np.float64(2928.933837890625)), (np.float64(1448.5594482421875), np.float64(2928.933837890625)), (np.float64(1448.5594482421875), np.float64(1572.129150390625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B800>)",
+        "text": "In 1991, the average labor productivity of the then-new federal states (plus West Berlin) only reached nearly half of the total national productivity level. Since then, the average labor productivity of these states has climbed up to nearly 90 per- cent. However, the ranking of the individual states has barely changed: Hamburg and the southern German states are still at the top, while most eastern German states remain at the bottom. Differences in urban structure are a decisive reason for this gap. Due to the advantages of spatial agglomeration, densely populated urban regions—which are typically found in the west—have higher productivity levels compared to rural regions in the east. Such differences in productivity have increased significantly over the past ten years. However, eastern German regions frequently score even better than their counterparts in the west within the same type of settle- ment structures. To prevent the productivity gap from growing larger, policymakers should strengthen the independent eco- nomic capacity of the regions that have fallen behind in both the east and west."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1587.423095703125), np.float64(1427.0345458984375)), (np.float64(1587.423095703125), np.float64(1989.4952392578125)), (np.float64(2700.64892578125), np.float64(1989.4952392578125)), (np.float64(2700.64892578125), np.float64(1427.0345458984375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B6B0>)",
+        "text": "There are many dimensions to the convergence of living conditions in eastern and western Germany as well as to the persistent differences between the two, such as differ- ences in educational and income opportunities as well as access to public services and to nature.' Economic differ- ences include, in particular, the development of economic performance capacity. There are many methods for evaluat- ing a region’s economic capacity. Frequently, indicators of companies’ innovative potential or the level of education of employees are used.’"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1584.403076171875), np.float64(2066.6806640625)), (np.float64(1584.403076171875), np.float64(2695.177001953125)), (np.float64(2705.2197265625), np.float64(2695.177001953125)), (np.float64(2705.2197265625), np.float64(2066.6806640625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521AF60>)",
+        "text": "However, a main summary indicator of current eco- nomic performance capacity is productivity or, more pre- cisely, gross value added in current prices per employed person. Disparities and trends in labor productivity have always played a decisive role in the economic policy debate on the economic differences between eastern and western Germany.’ On the 35th anniversary of German reunification on October 3, 2025, this Weekly Report examines the devel- opment of regional differences in labor productivity. To do so, current data from the national account systems of the federal states (VGRdL) is analyzed.*"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1581.0966796875), np.float64(2773.486328125)), (np.float64(1581.0966796875), np.float64(2882.57666015625)), (np.float64(2646.28369140625), np.float64(2882.57666015625)), (np.float64(2646.28369140625), np.float64(2773.486328125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F8EEAF6B0>)",
+        "text": "A steady but slow catching-up process for more than a decade"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1587.2666015625), np.float64(2940.343017578125)), (np.float64(1587.2666015625), np.float64(3161.64892578125)), (np.float64(2702.51220703125), np.float64(3161.64892578125)), (np.float64(2702.51220703125), np.float64(2940.343017578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED2F30>)",
+        "text": "In 1991, the average productivity level in the then-new states (as well as both parts of Berlin) was only a little over half of the total national average (Figure 1). Subsequently, the pro- ductivity gap narrowed rapidly and, by the beginning of the"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1577.745361328125), np.float64(3295.816650390625)), (np.float64(1577.745361328125), np.float64(3462.799560546875)), (np.float64(2697.27587890625), np.float64(3462.799560546875)), (np.float64(2697.27587890625), np.float64(3295.816650390625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3650>)",
+        "text": "1 Martina Hiilz et al. (2024): Multi-dimensionale regionale Ungleichheit in Deutschland: Eine Analyse aus 6konomischer und raumwissenschaftlicher Perspektive. ZEW Discussion Paper, no. 24, 015 (in German; available online; accessed on August 25, 2025. This applies to all other online sources in this report unless stated otherwise)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1589.2095947265625), np.float64(3490.943603515625)), (np.float64(1589.2095947265625), np.float64(3614.37939453125)), (np.float64(2690.731201171875), np.float64(3614.37939453125)), (np.float64(2690.731201171875), np.float64(3490.943603515625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3830>)",
+        "text": "2 Mitteldeutsche Stiftung Wissenschaft und Bildung (2025): ifo Faktenmonitor Ostdeutschland. Eine Bestandsaufnahme der wichtigsten Strukturdaten von Wirtschaft, Arbeitsmarkt, Wissenschaft und Gesellschaft (in German; available online)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1590.1641845703125), np.float64(3641.90673828125)), (np.float64(1590.1641845703125), np.float64(3721.98486328125)), (np.float64(2673.781005859375), np.float64(3721.98486328125)), (np.float64(2673.781005859375), np.float64(3641.90673828125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3980>)",
+        "text": "3 Doris Cornelsen und Wolfgang Kirner (1990): Zum Produktivitatsvergleich Bundesrepublik — DDR. DIW Wochenbericht no. 14, 172-174 (in German; available online)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1578.9808349609375), np.float64(3749.725341796875)), (np.float64(1578.9808349609375), np.float64(3919.415283203125)), (np.float64(2666.646484375), np.float64(3919.415283203125)), (np.float64(2666.646484375), np.float64(3749.725341796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3AD0>)",
+        "text": "4 The VGRdL is based on the total German data available from February 2025. Cf. Data on the Federal and State Statistical Offices website. Labor productivity is measured as the total gross value added generated by full-time and part-time employees at current prices compared to the number of full-time employees."
+    },
+    {
+        "type": "Text",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(208.0), np.float64(4003.0)), (np.float64(208.0), np.float64(4026.0)), (np.float64(260.0), np.float64(4026.0)), (np.float64(260.0), np.float64(4003.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3D70>)",
+        "text": "266"
+    },
+    {
+        "type": "Text",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(416.0), np.float64(3997.0)), (np.float64(416.0), np.float64(4038.0)), (np.float64(804.0), np.float64(4038.0)), (np.float64(804.0), np.float64(3997.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3EC0>)",
+        "text": "DIW Weekly Report 40/2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 2,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1588.9937744140625), np.float64(4000.67578125)), (np.float64(1588.9937744140625), np.float64(4034.75830078125)), (np.float64(2307.4306640625), np.float64(4034.75830078125)), (np.float64(2307.4306640625), np.float64(4000.67578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3C20>)",
+        "text": "DOI: https://doi.org/10.18723/diw_dwr:2025-40-2"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(207.01438903808594), np.float64(490.333251953125)), (np.float64(207.01438903808594), np.float64(595.759521484375)), (np.float64(1324.1192626953125), np.float64(595.759521484375)), (np.float64(1324.1192626953125), np.float64(490.333251953125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521BF20>)",
+        "text": "2000s, eastern Germany had reached nearly 80 percent of the national average."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(205.4393768310547), np.float64(666.622314453125)), (np.float64(205.4393768310547), np.float64(1002.6419067382812)), (np.float64(1326.3526611328125), np.float64(1002.6419067382812)), (np.float64(1326.3526611328125), np.float64(666.622314453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED32F0>)",
+        "text": "However, this convergence came to a halt. Steady, above-av- erage growth in labor productivity was not recorded again year-on-year in eastern Germany until the 2010s. When it returned, the speed of growth has decreased considerably.° As of 2024, east German productivity was still at only nearly 90 percent of the total national level."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(202.36801147460938), np.float64(1076.4791259765625)), (np.float64(202.36801147460938), np.float64(1880.0750732421875)), (np.float64(1324.0574951171875), np.float64(1880.0750732421875)), (np.float64(1324.0574951171875), np.float64(1076.4791259765625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3C50>)",
+        "text": "When comparing labor productivity at the state level, the dis- tribution (measured by variation coefficients) has declined noticeably: While states are converging, their overall rankings have barely changed (Figure 2). Hamburg and the southern German states remain at the top and the eastern German states are still at the bottom. Of the western states, only Saarland, which is dealing with major structural problems due to the end of coal production and the shrinkage of the steel industry, ranks at the bottom. In contrast, Berlin was able to improve its position considerably and now has a level of labor productivity at about the national average. In a European comparison, this is rather unusual. Capital city regions generally have a level of productivity that is well above the national average.°"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(201.07411193847656), np.float64(1949.466796875)), (np.float64(201.07411193847656), np.float64(2750.486572265625)), (np.float64(1326.21630859375), np.float64(2750.486572265625)), (np.float64(1326.21630859375), np.float64(1949.466796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8080>)",
+        "text": "However, the overall productivity gap in eastern Germany varies considerably between the individual economic sectors (Figure 3). The gaps in financial, insurance, and business services as well as in real estate and housing stick out in par- ticular. In these sectors, the catching-up process has been slow for many years: eastern German states have reached only around 80 percent of the national average. In wholesale and retail trade, transportation, accommodation and food services, information and communication as well as man- ufacturing, eastern German companies have achieved pro- ductivity growth that is well above average over the past ten years. However, labor productivity in these areas was 11 and 13 percentage points below the total national level, respec- tively, in 2024 as well."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.61666870117188), np.float64(2827.68603515625)), (np.float64(203.61666870117188), np.float64(3453.2587890625)), (np.float64(1321.96875), np.float64(3453.2587890625)), (np.float64(1321.96875), np.float64(2827.68603515625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8710>)",
+        "text": "Labor productivity in eastern Germany now exceeds the west- ern German average in personal services, which includes education, health care, personal care, and public admin- istration. In 2024, gross value added in current prices was six percent above the national average. Agriculture, forestry and fishing was above the national average, as well. When Germany was divided, agriculture was comparatively very productive in East Germany. Today, labor productivity in agri- culture in the eastern German states is round about 20 per- centage points above the total national average. However, the advantage has declined over the past two decades."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.84776306152344), np.float64(3644.81396484375)), (np.float64(203.84776306152344), np.float64(3811.365234375)), (np.float64(1297.0440673828125), np.float64(3811.365234375)), (np.float64(1297.0440673828125), np.float64(3644.81396484375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8B60>)",
+        "text": "5 Jan Biichel und Klaus-Heiner Rohl (2022): Sind anhaltende Produktivitatsunterschiede zwischen West- und Ostdeutschland auch durch Unterschiede in der Datenbewirtschaftung zu erklaren?. IW-Trends, Vierteljahresschrift zur empirischen Wirtschaftsforschung, no. 4 (in German; available online)."
+    },
+    {
+        "type": "ListItem",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(208.85752868652344), np.float64(3839.69677734375)), (np.float64(208.85752868652344), np.float64(3875.094970703125)), (np.float64(1279.2598876953125), np.float64(3875.094970703125)), (np.float64(1279.2598876953125), np.float64(3839.69677734375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8CE0>)",
+        "text": "6 Christian Franz et al. (2019): Berlin auf dem Weg ins Jahr 2030, DIW Politikberatung kompakt"
+    },
+    {
+        "type": "ListItem",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(194.2340545654297), np.float64(3883.112060546875)), (np.float64(194.2340545654297), np.float64(3919.4091796875)), (np.float64(1050.534912109375), np.float64(3919.4091796875)), (np.float64(1050.534912109375), np.float64(3883.112060546875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8F80>)",
+        "text": "Nr. 144, revised version from January 20, 2020 (in German; available online)."
+    },
+    {
+        "type": "Title",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1296.228515625), np.float64(260.2919006347656)), (np.float64(1296.228515625), np.float64(300.37255859375)), (np.float64(1597.293212890625), np.float64(300.37255859375)), (np.float64(1597.293212890625), np.float64(260.2919006347656))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B9B0>)",
+        "text": "PRODUCTIVITY"
+    },
+    {
+        "type": "Title",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1410.5567626953125), np.float64(491.8509826660156)), (np.float64(1410.5567626953125), np.float64(528.946044921875)), (np.float64(1535.1197509765625), np.float64(528.946044921875)), (np.float64(1535.1197509765625), np.float64(491.8509826660156))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F8E864FB0>)",
+        "text": "Figure 1"
+    },
+    {
+        "type": "Title",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1417.5325927734375), np.float64(574.7376708984375)), (np.float64(1417.5325927734375), np.float64(678.3270874023438)), (np.float64(2673.31689453125), np.float64(678.3270874023438)), (np.float64(2673.31689453125), np.float64(574.7376708984375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F8EEE86E0>)",
+        "text": "Gross value added in current prices per employed person in eastern and western Germany"
+    },
+    {
+        "type": "Image",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1407.517822265625), np.float64(685.1221923828125)), (np.float64(1407.517822265625), np.float64(2072.532470703125)), (np.float64(2786.61083984375), np.float64(2072.532470703125)), (np.float64(2786.61083984375), np.float64(685.1221923828125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3950>)",
+        "text": "In percent of total national average 120 — 110 — Western Germany &) 100 — 90 — (a) Eastern Germany 80 — 70 — 60 — 50 a 1991 1996 2001 2006 2011 2016 2021"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1415.861572265625), np.float64(2121.919189453125)), (np.float64(1415.861572265625), np.float64(2201.02685546875)), (np.float64(2750.26904296875), np.float64(2201.02685546875)), (np.float64(2750.26904296875), np.float64(2121.919189453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE81D0>)",
+        "text": "Sources: National Accounts of the Federal States Working group (Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Lander), data from February 2025; author's calculations."
+    },
+    {
+        "type": "Text",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2536.0), np.float64(2253.0)), (np.float64(2536.0), np.float64(2274.0)), (np.float64(2761.0), np.float64(2274.0)), (np.float64(2761.0), np.float64(2253.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE90D0>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1415.9178466796875), np.float64(2326.28466796875)), (np.float64(1415.9178466796875), np.float64(2413.8447265625)), (np.float64(2675.703125), np.float64(2413.8447265625)), (np.float64(2675.703125), np.float64(2326.28466796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8320>)",
+        "text": "Following a period of high dynamism and stagnation, there has been a continual catching-up process in eastern Germany since the beginning of the 2010s."
+    },
+    {
+        "type": "Title",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1378.3646240234375), np.float64(2556.77978515625)), (np.float64(1378.3646240234375), np.float64(2606.484619140625)), (np.float64(2438.408935546875), np.float64(2606.484619140625)), (np.float64(2438.408935546875), np.float64(2556.77978515625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8470>)",
+        "text": "Reasons behind the persistent productivity gap"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1378.11865234375), np.float64(2647.7041015625)), (np.float64(1378.11865234375), np.float64(3163.326171875)), (np.float64(2490.318603515625), np.float64(3163.326171875)), (np.float64(2490.318603515625), np.float64(2647.7041015625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE85C0>)",
+        "text": "Thus, the productivity gap in the eastern German states is mainly in manufacturing and business services. These sec- tors are also the focus when attempting to identify possible causes of a persistent productivity gap in eastern Germany. Scientific studies are increasingly using firm data to ana- lyze regional disparities.’ These studies find that eastern German companies generally have a lower level of produc- tivity than their western German counterparts, especially in manufacturing."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1375.17333984375), np.float64(3230.4755859375)), (np.float64(1375.17333984375), np.float64(3512.618896484375)), (np.float64(2493.15869140625), np.float64(3512.618896484375)), (np.float64(2493.15869140625), np.float64(3230.4755859375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8860>)",
+        "text": "Various reasons are given for what is driving this overall gap in productivity. A lack of big corporations is frequently men- tioned, which makes networking with technologically leading production clusters more difficult.’ Another approach views path dependence as the underlying problem. “Hidden"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1369.4268798828125), np.float64(3643.295166015625)), (np.float64(1369.4268798828125), np.float64(3853.60107421875)), (np.float64(2475.552490234375), np.float64(3853.60107421875)), (np.float64(2475.552490234375), np.float64(3643.295166015625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE89E0>)",
+        "text": "7 Matthias Mertens und Steffen Miller (2020): The East-West German Gap in Revenue Produc- tivity: Just a Tale of Output Prices?. Journal of Comparative Economics Volume 50, No. 3, 815-831 (available online); Heike Belitz, Martin Gornig und Alexander Schiersch (2020): Produktivitat in der Industrie unterscheidet sich weiterhin zwischen Ost und West. DIW Wochenbericht no. 39, 747-753 (in German; available online)."
+    },
+    {
+        "type": "ListItem",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1381.3782958984375), np.float64(3880.762451171875)), (np.float64(1381.3782958984375), np.float64(3920.194580078125)), (np.float64(1747.4761962890625), np.float64(3920.194580078125)), (np.float64(1747.4761962890625), np.float64(3880.762451171875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8E30>)",
+        "text": "8 Biichel and Rohl (2022), ibid."
+    },
+    {
+        "type": "Text",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2090.0), np.float64(4001.0)), (np.float64(2090.0), np.float64(4033.0)), (np.float64(2478.0), np.float64(4033.0)), (np.float64(2478.0), np.float64(4001.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9220>)",
+        "text": "DIW Weekly Report 40/2025"
+    },
+    {
+        "type": "Text",
+        "page": 3,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2637.0), np.float64(4003.0)), (np.float64(2637.0), np.float64(4025.0)), (np.float64(2686.0), np.float64(4025.0)), (np.float64(2686.0), np.float64(4003.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9370>)",
+        "text": "267"
+    },
+    {
+        "type": "Title",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1296.7576904296875), np.float64(263.7652587890625)), (np.float64(1296.7576904296875), np.float64(299.18768310546875)), (np.float64(1598.1483154296875), np.float64(299.18768310546875)), (np.float64(1598.1483154296875), np.float64(263.7652587890625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3B00>)",
+        "text": "PRODUCTIVITY"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(128.64248657226562), np.float64(491.47900390625)), (np.float64(128.64248657226562), np.float64(529.5060424804688)), (np.float64(254.5611114501953), np.float64(529.5060424804688)), (np.float64(254.5611114501953), np.float64(491.47900390625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B8C0>)",
+        "text": "Figure 2"
+    },
+    {
+        "type": "Title",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(128.32383728027344), np.float64(577.0545654296875)), (np.float64(128.32383728027344), np.float64(678.1752319335938)), (np.float64(1475.9793701171875), np.float64(678.1752319335938)), (np.float64(1475.9793701171875), np.float64(577.0545654296875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE80B0>)",
+        "text": "Gross value added in current prices per employed person in the German states"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(134.39788818359375), np.float64(695.89990234375)), (np.float64(134.39788818359375), np.float64(738.7010498046875)), (np.float64(821.1477661132812), np.float64(738.7010498046875)), (np.float64(821.1477661132812), np.float64(695.89990234375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8350>)",
+        "text": "In percent of total national average"
+    },
+    {
+        "type": "Text",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(131.0), np.float64(982.0)), (np.float64(131.0), np.float64(1512.0)), (np.float64(204.0), np.float64(1512.0)), (np.float64(204.0), np.float64(982.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA510>)",
+        "text": "3B Es) S F %"
+    },
+    {
+        "type": "Text",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(135.0), np.float64(1656.0)), (np.float64(135.0), np.float64(1963.0)), (np.float64(202.0), np.float64(1963.0)), (np.float64(202.0), np.float64(1656.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA660>)",
+        "text": "s v3) )"
+    },
+    {
+        "type": "Image",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(208.0597686767578), np.float64(791.827880859375)), (np.float64(208.0597686767578), np.float64(2764.221435546875)), (np.float64(1359.1204833984375), np.float64(2764.221435546875)), (np.float64(1359.1204833984375), np.float64(791.827880859375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE86E0>)",
+        "text": "amburg esse Baden-Wiurtte Bavaria Berlin Bremen Rhineland-Pal Schleswig-Ho Brandenburg Saarland Mecklenburg- Saxony-Anhal Saxony Thuringia Lower Saxony North Rhine-Westphalia Western Pomerania N So N BK N = os is 2004 mberg atinate Istein t lo) 20 40 60 80 100 120"
+    },
+    {
+        "type": "Text",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1404.0), np.float64(2697.0)), (np.float64(1404.0), np.float64(2720.0)), (np.float64(1448.0), np.float64(2720.0)), (np.float64(1448.0), np.float64(2697.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA7B0>)",
+        "text": "140"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(145.74740600585938), np.float64(2776.7197265625)), (np.float64(145.74740600585938), np.float64(2854.330322265625)), (np.float64(1472.198486328125), np.float64(2854.330322265625)), (np.float64(1472.198486328125), np.float64(2776.7197265625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9550>)",
+        "text": "Sources: National Accounts of the Federal States Working Group (Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Lander), data from February 2025; author's calculations."
+    },
+    {
+        "type": "Title",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1251.101318359375), np.float64(2905.444580078125)), (np.float64(1251.101318359375), np.float64(2938.92138671875)), (np.float64(1485.635498046875), np.float64(2938.92138671875)), (np.float64(1485.635498046875), np.float64(2905.444580078125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE96A0>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(142.27931213378906), np.float64(2981.387939453125)), (np.float64(142.27931213378906), np.float64(3069.802978515625)), (np.float64(1450.80224609375), np.float64(3069.802978515625)), (np.float64(1450.80224609375), np.float64(2981.387939453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE97F0>)",
+        "text": "The eastern German federal states have the lowest level of productivity; in the west, only Saarland has fallen behind."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(412.2392578125), np.float64(3232.382568359375)), (np.float64(412.2392578125), np.float64(3681.79541015625)), (np.float64(1524.3798828125), np.float64(3681.79541015625)), (np.float64(1524.3798828125), np.float64(3232.382568359375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9940>)",
+        "text": "champions,” businesses that have developed into global mar- ket leaders in their niches due to a high level of specializa- tion and technological innovation, are an example of path dependence. Three quarters of these firms have existed for over 40 years.’ Furthermore, persistent differences in men- tality, which can be passed on via generations, can contrib- ute to differences in entrepreneurial propensity or leader- ship styles, for example.”"
+    },
+    {
+        "type": "Footer",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(412.07757568359375), np.float64(3816.24365234375)), (np.float64(412.07757568359375), np.float64(3855.074951171875)), (np.float64(911.1417846679688), np.float64(3855.074951171875)), (np.float64(911.1417846679688), np.float64(3816.24365234375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9F40>)",
+        "text": "9 Belitz, Gornig and Schiersch (2020), ibid."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(407.84515380859375), np.float64(3882.8896484375)), (np.float64(407.84515380859375), np.float64(3918.228515625)), (np.float64(1359.924560546875), np.float64(3918.228515625)), (np.float64(1359.924560546875), np.float64(3882.8896484375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA210>)",
+        "text": "10 Steffen Mau (2024): Ungleich vereint. Warum der Osten anders bleibt. Suhrkamp."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(205.27171325683594), np.float64(4000.923095703125)), (np.float64(205.27171325683594), np.float64(4035.700439453125)), (np.float64(261.010986328125), np.float64(4035.700439453125)), (np.float64(261.010986328125), np.float64(4000.923095703125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA390>)",
+        "text": "268"
+    },
+    {
+        "type": "Text",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(416.0), np.float64(4001.0)), (np.float64(416.0), np.float64(4033.0)), (np.float64(804.0), np.float64(4033.0)), (np.float64(804.0), np.float64(4001.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA900>)",
+        "text": "DIW Weekly Report 40/2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1588.020263671875), np.float64(493.9216003417969)), (np.float64(1588.020263671875), np.float64(1177.995361328125)), (np.float64(2697.791259765625), np.float64(1177.995361328125)), (np.float64(2697.791259765625), np.float64(493.9216003417969))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F9521B020>)",
+        "text": "Regional economics offers another argument for differ- ences in productivity among companies: advantages due to spatial agglomeration of economic activities, which ena- bles each individual company to have higher productivity.” These agglomeration advantages include companies sharing advance services and infrastructures due to their geographi- cal proximity, generating access to new knowledge through personnel exchanges, or finding suitable personnel more easily by utilizing large labor markets. Corresponding anal- yses using individual data show that the operational produc- tivity of companies in cities is much higher than of compa- nies in less densely populated areas.”"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1578.07861328125), np.float64(1247.250732421875)), (np.float64(1578.07861328125), np.float64(1762.21826171875)), (np.float64(2702.127685546875), np.float64(1762.21826171875)), (np.float64(2702.127685546875), np.float64(1247.250732421875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8A10>)",
+        "text": "Based on these findings, a decisive reason for the remain- ing differences in productivity could be differences in urban structure and economic geography between the two halves of the country. Therefore, the smaller number of major cities in the east and the great distance to them would be responsible for the productivity gaps that still exist in many sectors. To investigate this thesis further, the cities and dis- tricts in eastern and western Germany will be classified as different urban types."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1577.2452392578125), np.float64(1830.100341796875)), (np.float64(1577.2452392578125), np.float64(2286.818359375)), (np.float64(2703.1630859375), np.float64(2286.818359375)), (np.float64(2703.1630859375), np.float64(1830.100341796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8E00>)",
+        "text": "This classification is based on the urban structure and eco- nomic geography typologies of the Federal Institute for Research on Building, Urban Affairs, and Spatial Development (Bundesinstitut fiir Bau-, Stadt- und Raumforschung, BBSR).“ The BBSR identifies up to five different urban structure types based on city size and degree of densification. In addition, the districts are differentiated in terms of accessibility to population centers."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1583.2943115234375), np.float64(2355.760498046875)), (np.float64(1583.2943115234375), np.float64(3045.63671875)), (np.float64(2700.491943359375), np.float64(3045.63671875)), (np.float64(2700.491943359375), np.float64(2355.760498046875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9190>)",
+        "text": "Both characteristics (urban structure and accessibility to population centers) are combined for the analysis in this Weekly Report. However, not all possible combinations are covered when combining the two characteristics. For example, there are no major cities in peripheral locations in Germany. Furthermore, certain combinations are only in the east or only in the west. For example, there are no very densely populated districts in central locations in the east. In western Germany, there are no districts with signs of densi- fication in very peripheral locations. In these cases, the cate- gory is merged with the neighboring category. There are ten urban structure types for urban and rural districts (Overview)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1585.2396240234375), np.float64(3294.756591796875)), (np.float64(1585.2396240234375), np.float64(3418.31396484375)), (np.float64(2685.798583984375), np.float64(3418.31396484375)), (np.float64(2685.798583984375), np.float64(3294.756591796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9AC0>)",
+        "text": "11. Gilles Duranton und Diego Puga (2004): Micro-foundations of urban agglomeration economies. Handbook of Regional and Urban Economics, Volume 4. Edited by John Vernon Henderson and Jacques-Francois Thisse. Elsevier."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1583.021728515625), np.float64(3445.39599609375)), (np.float64(1583.021728515625), np.float64(3658.946533203125)), (np.float64(2688.662353515625), np.float64(3658.946533203125)), (np.float64(2688.662353515625), np.float64(3445.39599609375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9C40>)",
+        "text": "12 Martin Gornig and Alexander Schiersch (2024): Agglomeration economies: different effects on TFP in high-tech and low-tech industries. Regional Studies, Volume 58, No. 11, 1999-2010 (avail- able online); Wolfgang Dauth al. (2022): Die Konzentration von leistungsfahigen Arbeitskraften in hoch bezahlenden Betrieben verstarkt regionale Lohnunterschiede. IAB Forum January 12, 2022 (in German; available online)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1584.899169921875), np.float64(3685.43359375)), (np.float64(1584.899169921875), np.float64(3811.004150390625)), (np.float64(2609.705810546875), np.float64(3811.004150390625)), (np.float64(2609.705810546875), np.float64(3685.43359375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9DC0>)",
+        "text": "13 Heike Belitz, Martin Gornig, and Alexander Schiersch (2019): Productivity: Urban-Rural Differences Affect Productivity More Than East-West Differences. DIW Weekly Report no. 43, 387-393 (available online)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 4,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1583.752685546875), np.float64(3838.19970703125)), (np.float64(1583.752685546875), np.float64(3918.27197265625)), (np.float64(2632.725830078125), np.float64(3918.27197265625)), (np.float64(2632.725830078125), np.float64(3838.19970703125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA090>)",
+        "text": "14 Bundesinstitut fiir Bau-, Stadt- und Raumforschung (2025): BBSR — Raumbeobachtung - Raumtyp 2010: Lage (Kreise), BBSR - Raumbeobachtung — Siedlungsstruktureller Kreistyp."
+    },
+    {
+        "type": "Title",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(207.57586669921875), np.float64(487.1654968261719)), (np.float64(207.57586669921875), np.float64(531.4320068359375)), (np.float64(348.9466552734375), np.float64(531.4320068359375)), (np.float64(348.9466552734375), np.float64(487.1654968261719))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEBBF0>)",
+        "text": "Overview"
+    },
+    {
+        "type": "Title",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(192.4569549560547), np.float64(576.9552001953125)), (np.float64(192.4569549560547), np.float64(679.6447143554688)), (np.float64(1171.9871826171875), np.float64(679.6447143554688)), (np.float64(1171.9871826171875), np.float64(576.9552001953125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8AD0>)",
+        "text": "Types of settlements according to economic geography and urban structure"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(213.81044006347656), np.float64(693.07373046875)), (np.float64(213.81044006347656), np.float64(792.3016967773438)), (np.float64(1256.2916259765625), np.float64(792.3016967773438)), (np.float64(1256.2916259765625), np.float64(693.07373046875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9430>)",
+        "text": "Based on the administrative boundaries of cities and districts"
+    },
+    {
+        "type": "Table",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(197.09759521484375), np.float64(850.722412109375)), (np.float64(197.09759521484375), np.float64(1498.9847412109375)), (np.float64(1311.0225830078125), np.float64(1498.9847412109375)), (np.float64(1311.0225830078125), np.float64(850.722412109375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9F70>)",
+        "text": "Metropolis Large independent city in a very central location Urban district or small independent city in a very central Metropolitan area . location City and central Small independent city in central location Urban and central Urban district in a central location Urban and peripheral Urban district in a peripheral location Densification and central | Rural district with signs of densification in central location Densification and peripheral Rural district with signs of densification in peripheral location Rural and central Sparsely populated rural district in a central location Rural and peripheral Sparsely populated rural district in a peripheral location Sparsely populated rural district or with signs of densification Very peripheral in a very peripheral location"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(200.9377899169922), np.float64(1547.8892822265625)), (np.float64(200.9377899169922), np.float64(1625.1580810546875)), (np.float64(1270.8841552734375), np.float64(1625.1580810546875)), (np.float64(1270.8841552734375), np.float64(1547.8892822265625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA300>)",
+        "text": "Sources: Federal Institute for Research on Building, Urban Affairs and Spatial Development (Bundesinstitut fiir Bau-, Stadt- und Raumforschung); author's depiction."
+    },
+    {
+        "type": "Text",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1082.0), np.float64(1681.0)), (np.float64(1082.0), np.float64(1701.0)), (np.float64(1307.0), np.float64(1701.0)), (np.float64(1307.0), np.float64(1681.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEBD40>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(200.4119873046875), np.float64(1832.4029541015625)), (np.float64(200.4119873046875), np.float64(2169.324951171875)), (np.float64(1321.4764404296875), np.float64(2169.324951171875)), (np.float64(1321.4764404296875), np.float64(1832.4029541015625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA690>)",
+        "text": "Data on gross value added in current prices and the number of employed people in the 400 districts was also taken from the VGRdL.” The results at the district level are adjusted based on the current data for the 16 states for the years 2004, 2014, and 2024, and then separately sorted into the ten urban structure types for eastern and western Germany.”"
+    },
+    {
+        "type": "Title",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(198.49119567871094), np.float64(2246.216552734375)), (np.float64(198.49119567871094), np.float64(2360.5673828125)), (np.float64(1137.02490234375), np.float64(2360.5673828125)), (np.float64(1137.02490234375), np.float64(2246.216552734375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEAA80>)",
+        "text": "No more productivity gap in most regions in the east"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(206.55751037597656), np.float64(2412.051513671875)), (np.float64(206.55751037597656), np.float64(2753.279296875)), (np.float64(1329.7686767578125), np.float64(2753.279296875)), (np.float64(1329.7686767578125), np.float64(2412.051513671875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEACF0>)",
+        "text": "The overwhelming majority of districts in the east are quite rural. Thirty-six of the 76 eastern districts are classified as a “sparsely populated rural district” by the BBSR and 24 districts are considered “rural districts with signs of den- sification.” Only 16 districts are classified as large cities or metropolises."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(200.70437622070312), np.float64(2821.0732421875)), (np.float64(200.70437622070312), np.float64(3278.203857421875)), (np.float64(1321.8316650390625), np.float64(3278.203857421875)), (np.float64(1321.8316650390625), np.float64(2821.0732421875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB170>)",
+        "text": "Evaluating by urban structure type shows that, in 2024, the productivity gap was closed on average in the categories with strong representation from the east (Figure 4). On average, eastern German districts in a peripheral location and in central locations with signs of densification were near the national average. In the “rural regions in central locations” category, the eastern German average is even higher than the average national productivity in this category."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.45260620117188), np.float64(3346.9111328125)), (np.float64(203.45260620117188), np.float64(3513.136474609375)), (np.float64(1322.52392578125), np.float64(3513.136474609375)), (np.float64(1322.52392578125), np.float64(3346.9111328125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB5F0>)",
+        "text": "In contrast, the productivity level is still lower in the east- ern German metropolises and urban districts than west- ern German regions of the same urban structure type. In"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.4813995361328), np.float64(3598.414794921875)), (np.float64(203.4813995361328), np.float64(3767.8251953125)), (np.float64(1321.0831298828125), np.float64(3767.8251953125)), (np.float64(1321.0831298828125), np.float64(3598.414794921875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB770>)",
+        "text": "15 These statistics are based on VGRDdL data from August 2023 for the district level. The district data published at this time differ from the current state figures in terms of totals. Accordingly, the district data for 2004 and 2014 were adjusted to the district figures. For 2024, the internal distribu- tion from 2022 was transferred to the state values."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(200.60594177246094), np.float64(3792.933349609375)), (np.float64(200.60594177246094), np.float64(3918.626953125)), (np.float64(1317.58056640625), np.float64(3918.626953125)), (np.float64(1317.58056640625), np.float64(3792.933349609375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB8F0>)",
+        "text": "16 The spatial hierarchy of labor productivity across Germany corresponds to regional economic expectations in all three years. The highest productivity is achieved in the metropolises, the lowest in the peripheral locations."
+    },
+    {
+        "type": "Title",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1296.390380859375), np.float64(256.6389465332031)), (np.float64(1296.390380859375), np.float64(301.6592102050781)), (np.float64(1597.52978515625), np.float64(301.6592102050781)), (np.float64(1597.52978515625), np.float64(256.6389465332031))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED2C90>)",
+        "text": "PRODUCTIVITY"
+    },
+    {
+        "type": "Title",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1408.1915283203125), np.float64(491.1729736328125)), (np.float64(1408.1915283203125), np.float64(529.2011108398438)), (np.float64(1539.656005859375), np.float64(529.2011108398438)), (np.float64(1539.656005859375), np.float64(491.1729736328125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA870>)",
+        "text": "Figure 3"
+    },
+    {
+        "type": "Title",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1418.7557373046875), np.float64(573.5178833007812)), (np.float64(1418.7557373046875), np.float64(675.3863525390625)), (np.float64(2688.86474609375), np.float64(675.3863525390625)), (np.float64(2688.86474609375), np.float64(573.5178833007812))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE82F0>)",
+        "text": "Gross value added in current prices per employed person by industries"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1412.0958251953125), np.float64(694.2303466796875)), (np.float64(1412.0958251953125), np.float64(738.5321044921875)), (np.float64(2652.32958984375), np.float64(738.5321044921875)), (np.float64(2652.32958984375), np.float64(694.2303466796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9820>)",
+        "text": "Eastern German Industries in percent of total national average"
+    },
+    {
+        "type": "Image",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1399.520263671875), np.float64(783.697021484375)), (np.float64(1399.520263671875), np.float64(2351.314208984375)), (np.float64(2839.646240234375), np.float64(2351.314208984375)), (np.float64(2839.646240234375), np.float64(783.697021484375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9C10>)",
+        "text": "MM 2024 M2014 M2004 Agriculture, forestry, fisheries Aa hha Manufacturing OY Wholesale and retail trade, transportation, accommodation and food services, information and communication = Financial, insurance, and business services; real estate and housing ©MQ Public services and other service activities, education, health care a 100 120"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1418.2213134765625), np.float64(2397.69189453125)), (np.float64(1418.2213134765625), np.float64(2476.8466796875)), (np.float64(2760.42138671875), np.float64(2476.8466796875)), (np.float64(2760.42138671875), np.float64(2397.69189453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEABA0>)",
+        "text": "Sources: National Accounts of the Federal States Working Group (Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Ldnder), data from February 2025; author's calculations."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2529.577392578125), np.float64(2528.46142578125)), (np.float64(2529.577392578125), np.float64(2559.298828125)), (np.float64(2765.326416015625), np.float64(2559.298828125)), (np.float64(2765.326416015625), np.float64(2528.46142578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEAE70>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1404.7174072265625), np.float64(2605.136474609375)), (np.float64(1404.7174072265625), np.float64(2689.961669921875)), (np.float64(2753.83837890625), np.float64(2689.961669921875)), (np.float64(2753.83837890625), np.float64(2605.136474609375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEAFF0>)",
+        "text": "Eastern Germany has caught up considerably in manufacturing, wholesale and retail trade, transportation, and accommodation over the past years."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1379.26708984375), np.float64(2882.739501953125)), (np.float64(1379.26708984375), np.float64(3101.265380859375)), (np.float64(2500.032470703125), np.float64(3101.265380859375)), (np.float64(2500.032470703125), np.float64(2882.739501953125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB2F0>)",
+        "text": "particular, a large gap in the metropolises is noticeable: Berlin, Dresden, and Leipzig are far from the productiv- ity level reached by cities of comparable size in western Germany."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1378.4473876953125), np.float64(3174.9267578125)), (np.float64(1378.4473876953125), np.float64(3802.788818359375)), (np.float64(2491.416015625), np.float64(3802.788818359375)), (np.float64(2491.416015625), np.float64(3174.9267578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB470>)",
+        "text": "However, many other eastern German regions are success stories.” Correspondingly, when comparing aggregated labor productivity, a series of eastern German regions perform significantly better than their comparable western counter- parts. This includes districts in the direct catchment areas of major cities such as Berlin and Leipzig. However, periph- eral districts with signs of densification, such as Northwest Mecklenburg and Anhalt-Bitterfeld, are also above the west- ern German average in their urban structure category; the same applies to the sparsely populated districts of Gorlitz and Stendal."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1381.4302978515625), np.float64(3881.863525390625)), (np.float64(1381.4302978515625), np.float64(3919.139892578125)), (np.float64(2204.596923828125), np.float64(3919.139892578125)), (np.float64(2204.596923828125), np.float64(3881.863525390625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEBA70>)",
+        "text": "17 Cf. also Mitteldeutsche Stiftung Wissenschaft und Bildung (2025), ibid."
+    },
+    {
+        "type": "Text",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2090.0), np.float64(4001.0)), (np.float64(2090.0), np.float64(4033.0)), (np.float64(2478.0), np.float64(4033.0)), (np.float64(2478.0), np.float64(4001.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEBE90>)",
+        "text": "DIW Weekly Report 40/2025"
+    },
+    {
+        "type": "Text",
+        "page": 5,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2635.0), np.float64(4003.0)), (np.float64(2635.0), np.float64(4026.0)), (np.float64(2686.0), np.float64(4026.0)), (np.float64(2686.0), np.float64(4003.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC050>)",
+        "text": "269"
+    },
+    {
+        "type": "Title",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1297.2188720703125), np.float64(261.0826721191406)), (np.float64(1297.2188720703125), np.float64(300.1217346191406)), (np.float64(1598.3873291015625), np.float64(300.1217346191406)), (np.float64(1598.3873291015625), np.float64(261.0826721191406))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEBF50>)",
+        "text": "PRODUCTIVITY"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(128.97454833984375), np.float64(491.69952392578125)), (np.float64(128.97454833984375), np.float64(529.2119750976562)), (np.float64(255.208740234375), np.float64(529.2119750976562)), (np.float64(255.208740234375), np.float64(491.69952392578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE91F0>)",
+        "text": "Figure 4"
+    },
+    {
+        "type": "Title",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(138.82737731933594), np.float64(577.4910888671875)), (np.float64(138.82737731933594), np.float64(677.0664672851562)), (np.float64(1404.6739501953125), np.float64(677.0664672851562)), (np.float64(1404.6739501953125), np.float64(577.4910888671875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEAD20>)",
+        "text": "Gross value added in current prices per employed person by settlement structure types"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(136.0499267578125), np.float64(697.6158447265625)), (np.float64(136.0499267578125), np.float64(737.5997314453125)), (np.float64(1339.6923828125), np.float64(737.5997314453125)), (np.float64(1339.6923828125), np.float64(697.6158447265625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB0E0>)",
+        "text": "Eastern German Regions in percent of total national average"
+    },
+    {
+        "type": "Image",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(138.3951416015625), np.float64(801.5630493164062)), (np.float64(138.3951416015625), np.float64(2367.347412109375)), (np.float64(1523.5802001953125), np.float64(2367.347412109375)), (np.float64(1523.5802001953125), np.float64(801.5630493164062))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB4A0>)",
+        "text": "Very peripheral Rural and peripheral Rural and central Densification and peripheral Densification and central Urban and peripheral Urban and central City and central Metropolitan area Metropolis M2024 M2014 M2004 has od otula | 100 a 20 40 60 80"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(127.4233169555664), np.float64(2428.810546875)), (np.float64(127.4233169555664), np.float64(2507.81494140625)), (np.float64(1497.6365966796875), np.float64(2507.81494140625)), (np.float64(1497.6365966796875), np.float64(2428.810546875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F8EFE9070>)",
+        "text": "Sources: National Accounts of the Federal States Working Group (Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Lander), data from August 2023 and February 2025; author's calculations."
+    },
+    {
+        "type": "Title",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1252.3319091796875), np.float64(2554.960205078125)), (np.float64(1252.3319091796875), np.float64(2593.523681640625)), (np.float64(1480.880615234375), np.float64(2593.523681640625)), (np.float64(1480.880615234375), np.float64(2554.960205078125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC200>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(146.85987854003906), np.float64(2634.31396484375)), (np.float64(146.85987854003906), np.float64(2721.113037109375)), (np.float64(1446.189208984375), np.float64(2721.113037109375)), (np.float64(1446.189208984375), np.float64(2634.31396484375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC4D0>)",
+        "text": "sparsely populated rural districts and those with only slight signs of densification, eastern Germany is close to or above the national average."
+    },
+    {
+        "type": "Text",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(134.0), np.float64(2642.0)), (np.float64(134.0), np.float64(2667.0)), (np.float64(158.0), np.float64(2667.0)), (np.float64(158.0), np.float64(2642.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFCDD0>)",
+        "text": "In"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(409.000244140625), np.float64(2877.022216796875)), (np.float64(409.000244140625), np.float64(2993.107421875)), (np.float64(1504.0001220703125), np.float64(2993.107421875)), (np.float64(1504.0001220703125), np.float64(2877.022216796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC650>)",
+        "text": "Disparities in regional productivity nevertheless still growing"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(414.0323791503906), np.float64(3055.5908203125)), (np.float64(414.0323791503906), np.float64(3627.5654296875)), (np.float64(1525.9986572265625), np.float64(3627.5654296875)), (np.float64(1525.9986572265625), np.float64(3055.5908203125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC950>)",
+        "text": "The gradual convergence process between the east and west should not mask the fact that regional differences in pro- ductivity - meaning differences in regional economic per- formance capacity — has massively increased over the past ten years. The variance in productivity values between the 400 districts increased by over 70 percent from 2014 to 2024. However, the average value increased considerably, resulting in a larger increase in dispersion due to the variance, as well. If variation coefficients are used to consider this influence, there is still an increase in the dispersion of over 25 percent."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(407.674560546875), np.float64(3698.3994140625)), (np.float64(407.674560546875), np.float64(3861.50732421875)), (np.float64(1523.347900390625), np.float64(3861.50732421875)), (np.float64(1523.347900390625), np.float64(3698.3994140625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFCC50>)",
+        "text": "Inequality has grown across both the east and the west. This can be seen in the density function based on the fre- quency distribution of labor productivity at the district level"
+    },
+    {
+        "type": "Text",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(208.0), np.float64(4003.0)), (np.float64(208.0), np.float64(4025.0)), (np.float64(257.0), np.float64(4025.0)), (np.float64(257.0), np.float64(4003.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFCF20>)",
+        "text": "270"
+    },
+    {
+        "type": "Text",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(416.0), np.float64(4001.0)), (np.float64(416.0), np.float64(4033.0)), (np.float64(804.0), np.float64(4033.0)), (np.float64(804.0), np.float64(4001.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD070>)",
+        "text": "DIW Weekly Report 40/2025"
+    },
+    {
+        "type": "Title",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1617.640380859375), np.float64(492.6903991699219)), (np.float64(1617.640380859375), np.float64(527.6636962890625)), (np.float64(1743.96826171875), np.float64(527.6636962890625)), (np.float64(1743.96826171875), np.float64(492.6903991699219))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9DF0>)",
+        "text": "Figure 5"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1618.8385009765625), np.float64(576.9136352539062)), (np.float64(1618.8385009765625), np.float64(735.7657470703125)), (np.float64(2743.168212890625), np.float64(735.7657470703125)), (np.float64(2743.168212890625), np.float64(576.9136352539062))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEA630>)",
+        "text": "Development of the dispersion of labor productivity among the districts in 2004, 2014, and 2024 in eastern and western Germany"
+    },
+    {
+        "type": "Text",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1623.0), np.float64(752.0)), (np.float64(1623.0), np.float64(797.0)), (np.float64(1940.0), np.float64(797.0)), (np.float64(1940.0), np.float64(752.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD1C0>)",
+        "text": "Density function"
+    },
+    {
+        "type": "Image",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1597.916748046875), np.float64(826.2752685546875)), (np.float64(1597.916748046875), np.float64(2208.972412109375)), (np.float64(2789.677734375), np.float64(2208.972412109375)), (np.float64(2789.677734375), np.float64(826.2752685546875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB860>)",
+        "text": "Eastern Germany (a) 0.15— 2004 2014 0.10 — 2024 0.05 — ° | | 40,000 60,000 80,000 100,000 120,000 Productivity Western Germany &) 0.15— 0.10 — 2004 2014 0.05 — 2024 oF ) 50,000 100,000 150,000 Productivity"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1618.1964111328125), np.float64(2262.256591796875)), (np.float64(1618.1964111328125), np.float64(2334.892333984375)), (np.float64(2717.451171875), np.float64(2334.892333984375)), (np.float64(2717.451171875), np.float64(2262.256591796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEBBC0>)",
+        "text": "Note: The density function indicates how likely it is that a district in the east or west achieved a certain level of productivity in a certain year."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1622.66748046875), np.float64(2370.034912109375)), (np.float64(1622.66748046875), np.float64(2491.312255859375)), (np.float64(2701.15185546875), np.float64(2491.312255859375)), (np.float64(2701.15185546875), np.float64(2370.034912109375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEBEC0>)",
+        "text": "Sources: National Accounts of the Federal States Working Group (Arbeitskreis Volkswirtschaft- liche Gesamtrechnungen der Lander), data from August 2023 and February 2025; author's calculations."
+    },
+    {
+        "type": "Text",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2536.0), np.float64(2543.0)), (np.float64(2536.0), np.float64(2564.0)), (np.float64(2761.0), np.float64(2564.0)), (np.float64(2761.0), np.float64(2543.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD310>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1612.7862548828125), np.float64(2616.26953125)), (np.float64(1612.7862548828125), np.float64(2704.458251953125)), (np.float64(2737.162841796875), np.float64(2704.458251953125)), (np.float64(2737.162841796875), np.float64(2616.26953125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC350>)",
+        "text": "The productivity dispersion between districts in the east and west has become increasingly uneven, particularly over the last ten years."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1585.9205322265625), np.float64(2881.42919921875)), (np.float64(1585.9205322265625), np.float64(3221.677734375)), (np.float64(2701.977783203125), np.float64(3221.677734375)), (np.float64(2701.977783203125), np.float64(2881.42919921875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC7D0>)",
+        "text": "(Figure 5). In both parts of the country, fewer and fewer dis- tricts are scoring near the average. The density function dis- plays a significantly flatter curve, particularly in 2024. The number of districts at the top and bottom end of the distri- bution are increasing and they are moving increasingly fur- ther from the average."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 6,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1580.890625), np.float64(3287.736328125)), (np.float64(1580.890625), np.float64(3861.360107421875)), (np.float64(2703.90625), np.float64(3861.360107421875)), (np.float64(2703.90625), np.float64(3287.736328125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFCAD0>)",
+        "text": "There was a significant change in the regional distribu- tion pattern of labor productivity between 2014 and 2024, especially for the east. The values for gross value added per employed person in the individual eastern Germany districts are becoming increasingly more spread out. Their hetero- geneity is becoming more similar with the heterogeneity between districts in the west. While there were clear mar- ginal regional differences in the east compared to the west between 2004 and 2014, the density functions now show nearly identical patterns (Figure 6)."
+    },
+    {
+        "type": "Title",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(217.4852294921875), np.float64(489.3803405761719)), (np.float64(217.4852294921875), np.float64(593.5814208984375)), (np.float64(1216.2384033203125), np.float64(593.5814208984375)), (np.float64(1216.2384033203125), np.float64(489.3803405761719))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE9C70>)",
+        "text": "Conclusion: Target support measures to weak regions in east and west"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(204.38192749023438), np.float64(665.7626953125)), (np.float64(204.38192749023438), np.float64(1061.517578125)), (np.float64(1321.226318359375), np.float64(1061.517578125)), (np.float64(1321.226318359375), np.float64(665.7626953125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD280>)",
+        "text": "While the productivity gap between the east and west has closed in many sectors, the need for regional transfer pay- ments is rising in light of increasing differences in economic capacity between rural and urban areas. Equal living condi- tions in Germany must be ensured, in particular by inter- governmental transfers between the states, from the states to municipalities, and within the states between municipalities."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(198.920654296875), np.float64(1131.68212890625)), (np.float64(198.920654296875), np.float64(1470.435546875)), (np.float64(1329.22607421875), np.float64(1470.435546875)), (np.float64(1329.22607421875), np.float64(1131.68212890625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFCAA0>)",
+        "text": "In response to the decline in economic disparities between the states and rapid increases in disparities within the states, refocusing compensation mechanisms should be considered. Refocusing could involve integrating the federal level more closely into small-scale compensation measures as part of a joint task\"*—for example, to secure social and public services."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(200.60826110839844), np.float64(1539.5152587890625)), (np.float64(200.60826110839844), np.float64(1937.78515625)), (np.float64(1323.90771484375), np.float64(1937.78515625)), (np.float64(1323.90771484375), np.float64(1539.5152587890625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFCE90>)",
+        "text": "This could involve strengthening independent economic capacity of the regions lagging behind in both parts of the country through an active regional policy. Access to digital infrastructures is a major requirement for economic con- nectivity to modern production structures and is proven to increase productivity. Thus, policymakers should set up appropriate support programs."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.8258056640625), np.float64(2003.705078125)), (np.float64(203.8258056640625), np.float64(2401.49951171875)), (np.float64(1324.8145751953125), np.float64(2401.49951171875)), (np.float64(1324.8145751953125), np.float64(2003.705078125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD670>)",
+        "text": "The availability of labor is increasingly becoming a bottleneck for economic development, especially in rural areas.’ The spatial clustering of social and public services within such . . . os regions should improve the attractiveness of living there for workers. Spatial classification concepts, as discussed in the 1990s under the term “decentralized concentration,” could also be useful here.”"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.8555145263672), np.float64(2472.89013671875)), (np.float64(203.8555145263672), np.float64(2927.86962890625)), (np.float64(1322.0521240234375), np.float64(2927.86962890625)), (np.float64(1322.0521240234375), np.float64(2472.89013671875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD7F0>)",
+        "text": "Furthermore, it should be investigated whether strategic industrial policy concepts can be successfully implemented specifically in rural regions. In this way, many examples of successful small and medium-sized firms in industry outside of the major metropolitan regions can be found in Germany.”! Furthermore, a series of scientific studies indi- cate that industries with suitable production clusters in less dense regions have respectable development prospects.”"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.13400268554688), np.float64(3069.744140625)), (np.float64(203.13400268554688), np.float64(3107.306396484375)), (np.float64(1047.515380859375), np.float64(3107.306396484375)), (np.float64(1047.515380859375), np.float64(3069.744140625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFDC10>)",
+        "text": "18 Formely: Gemeinschaftsaufgabe as defined in Articel 91a Grundgesetz."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(203.45993041992188), np.float64(3132.174072265625)), (np.float64(203.45993041992188), np.float64(3215.8330078125)), (np.float64(1321.908447265625), np.float64(3215.8330078125)), (np.float64(1321.908447265625), np.float64(3132.174072265625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFDD90>)",
+        "text": "19 Eric Thode and Roman Wink (2024): Entwicklung und Zukunft des ostdeutschen Arbeitsmarkts. Bertelsmann Stiftung (ed.) (in German; available online)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(205.4835968017578), np.float64(3239.914306640625)), (np.float64(205.4835968017578), np.float64(3368.35595703125)), (np.float64(1303.9365234375), np.float64(3368.35595703125)), (np.float64(1303.9365234375), np.float64(3239.914306640625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE090>)",
+        "text": "20 The concept describes the bundling of land planning and state infrastructure to selected locations in rural regions. Christoph Zépel (2002): Brandenburg 2025 in der Mitte Europas. Verein Forum Zukunft Brandenburg. Potsdam 2002."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(201.21902465820312), np.float64(3392.671142578125)), (np.float64(201.21902465820312), np.float64(3431.351806640625)), (np.float64(1160.1815185546875), np.float64(3431.351806640625)), (np.float64(1160.1815185546875), np.float64(3392.671142578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE390>)",
+        "text": "21. Wirtschafswoche (2023): Die 450 heimlichen Weltmarktfiihrer, Sonderheft 1-2023."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(200.10838317871094), np.float64(3455.8427734375)), (np.float64(200.10838317871094), np.float64(3628.92724609375)), (np.float64(1273.02197265625), np.float64(3628.92724609375)), (np.float64(1273.02197265625), np.float64(3455.8427734375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE510>)",
+        "text": "22. Martin Gornig and Alexander Schiersch (2024), ibid. Henriette Ruhrmann, Michael Fritsch und Loet Leydesdorff (2022): Synergy and policy-making in German innovation systems: Smart Specialisation Strategies at national, regional, local levels?. Regional Studies Volume 56, no. 9, 1468-1479 (available online)."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(204.89527893066406), np.float64(3762.7939453125)), (np.float64(204.89527893066406), np.float64(3848.74755859375)), (np.float64(1269.254638671875), np.float64(3848.74755859375)), (np.float64(1269.254638671875), np.float64(3762.7939453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE690>)",
+        "text": "Martin Gornig is the Research Director of Industrial Policy in the Firms and Markets Department at DIW Berlin | mgornig@diw.de"
+    },
+    {
+        "type": "Title",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1292.32861328125), np.float64(261.78399658203125)), (np.float64(1292.32861328125), np.float64(299.5341491699219)), (np.float64(1601.390625), np.float64(299.5341491699219)), (np.float64(1601.390625), np.float64(261.78399658203125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE8200>)",
+        "text": "PRODUCTIVITY"
+    },
+    {
+        "type": "Title",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1410.242431640625), np.float64(491.8763427734375)), (np.float64(1410.242431640625), np.float64(528.9262084960938)), (np.float64(1537.9671630859375), np.float64(528.9262084960938)), (np.float64(1537.9671630859375), np.float64(491.8763427734375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEADE0>)",
+        "text": "Figure 6"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1420.837158203125), np.float64(574.7257080078125)), (np.float64(1420.837158203125), np.float64(733.4849243164062)), (np.float64(2737.40673828125), np.float64(733.4849243164062)), (np.float64(2737.40673828125), np.float64(574.7257080078125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EEB7A0>)",
+        "text": "Comparison of labor productivity density in districts in eastern and western Germany in 2004, 2014, and 2024 Density function"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1412.76904296875), np.float64(805.2023315429688)), (np.float64(1412.76904296875), np.float64(896.5984497070312)), (np.float64(1971.6304931640625), np.float64(896.5984497070312)), (np.float64(1971.6304931640625), np.float64(805.2023315429688))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC320>)",
+        "text": "Productivity density 2004: westvs. east 015 —"
+    },
+    {
+        "type": "Image",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1418.829833984375), np.float64(956.317138671875)), (np.float64(1418.829833984375), np.float64(1514.0045166015625)), (np.float64(2730.350341796875), np.float64(1514.0045166015625)), (np.float64(2730.350341796875), np.float64(956.317138671875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFC740>)",
+        "text": "(a) east 010 — 0.05 — ©) “us 0 ! ! 1 20,000 40,000 60,000 80,000 100,000 Productivity"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1415.981689453125), np.float64(1540.640380859375)), (np.float64(1415.981689453125), np.float64(1575.928466796875)), (np.float64(1963.4722900390625), np.float64(1575.928466796875)), (np.float64(1963.4722900390625), np.float64(1540.640380859375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD1F0>)",
+        "text": "Productivity density 2014: west vs. east"
+    },
+    {
+        "type": "Text",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1432.0), np.float64(1600.0)), (np.float64(1432.0), np.float64(1622.0)), (np.float64(1521.0), np.float64(1622.0)), (np.float64(1521.0), np.float64(1600.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFEB10>)",
+        "text": "up"
+    },
+    {
+        "type": "Image",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1401.2601318359375), np.float64(1619.8359375)), (np.float64(1401.2601318359375), np.float64(2297.68017578125)), (np.float64(2784.645263671875), np.float64(2297.68017578125)), (np.float64(2784.645263671875), np.float64(1619.8359375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD520>)",
+        "text": "((B eas 0.10 — 0.05 — *) West ° | 40,000 60,000 80,000 100,000 120,000 Productivity Productivity density 2024: west vs. east"
+    },
+    {
+        "type": "Text",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1428.0), np.float64(2335.0)), (np.float64(1428.0), np.float64(2357.0)), (np.float64(1521.0), np.float64(2357.0)), (np.float64(1521.0), np.float64(2335.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFEC60>)",
+        "text": "0.15 —"
+    },
+    {
+        "type": "Image",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1414.0343017578125), np.float64(2486.089599609375)), (np.float64(1414.0343017578125), np.float64(2976.947998046875)), (np.float64(2768.677490234375), np.float64(2976.947998046875)), (np.float64(2768.677490234375), np.float64(2486.089599609375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD970>)",
+        "text": "010 (®) cast 0.05 — @) oe a : , : 60,000 80,000 100,000 120,000 140,000 160,000 Productivity"
+    },
+    {
+        "type": "FigureCaption",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1402.457763671875), np.float64(3031.04052734375)), (np.float64(1402.457763671875), np.float64(3108.3876953125)), (np.float64(2692.4228515625), np.float64(3108.3876953125)), (np.float64(2692.4228515625), np.float64(3031.04052734375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFDAC0>)",
+        "text": "Note: The density function indicates how likely it is that a district in the east or west achieved a certain level of productivity in a certain year."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1412.0230712890625), np.float64(3139.062744140625)), (np.float64(1412.0230712890625), np.float64(3219.98095703125)), (np.float64(2756.804931640625), np.float64(3219.98095703125)), (np.float64(2756.804931640625), np.float64(3139.062744140625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFDF10>)",
+        "text": "Sources: National Accounts of the Federal States Working Group (Arbeitskreis Volkswirtschaftliche Gesamtrechnungen der Lander), data from August 2023 and February 2025; author's calculations."
+    },
+    {
+        "type": "Text",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2536.0), np.float64(3272.0)), (np.float64(2536.0), np.float64(3293.0)), (np.float64(2761.0), np.float64(3293.0)), (np.float64(2761.0), np.float64(3272.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFEDB0>)",
+        "text": "© DIW Berlin 2025"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1427.1015625), np.float64(3344.96484375)), (np.float64(1427.1015625), np.float64(3433.37744140625)), (np.float64(2704.9140625), np.float64(3433.37744140625)), (np.float64(2704.9140625), np.float64(3344.96484375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE210>)",
+        "text": "Over the past ten years, the density pattern of the districts’ labor productivity has converged significantly between eastern and western Germany."
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1377.4229736328125), np.float64(3765.609375)), (np.float64(1377.4229736328125), np.float64(3802.7998046875)), (np.float64(1639.0924072265625), np.float64(3802.7998046875)), (np.float64(1639.0924072265625), np.float64(3765.609375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE810>)",
+        "text": "JEL: D24, L60, R12"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1373.58056640625), np.float64(3835.87744140625)), (np.float64(1373.58056640625), np.float64(3873.99609375)), (np.float64(2196.564208984375), np.float64(3873.99609375)), (np.float64(2196.564208984375), np.float64(3835.87744140625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE990>)",
+        "text": ". : : Keywords: Productivity, Eastern Germany, Regional Policy"
+    },
+    {
+        "type": "Text",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2090.0), np.float64(4001.0)), (np.float64(2090.0), np.float64(4033.0)), (np.float64(2478.0), np.float64(4033.0)), (np.float64(2478.0), np.float64(4001.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFEF00>)",
+        "text": "DIW Weekly Report 40/2025"
+    },
+    {
+        "type": "Text",
+        "page": 7,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(2644.0), np.float64(4003.0)), (np.float64(2644.0), np.float64(4025.0)), (np.float64(2685.0), np.float64(4025.0)), (np.float64(2685.0), np.float64(4003.0))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFF050>)",
+        "text": "271"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(132.32518005371094), np.float64(2772.914794921875)), (np.float64(132.32518005371094), np.float64(2809.2880859375)), (np.float64(754.521728515625), np.float64(2809.2880859375)), (np.float64(754.521728515625), np.float64(2772.914794921875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90ED3110>)",
+        "text": "LEGAL AND EDITORIAL DETAILS"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(138.43899536132812), np.float64(2885.501953125)), (np.float64(138.43899536132812), np.float64(2943.151123046875)), (np.float64(501.27215576171875), np.float64(2943.151123046875)), (np.float64(501.27215576171875), np.float64(2885.501953125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFF080>)",
+        "text": "WP BERLIN"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(146.8142547607422), np.float64(2995.398681640625)), (np.float64(146.8142547607422), np.float64(3236.505859375)), (np.float64(1027.9351806640625), np.float64(3236.505859375)), (np.float64(1027.9351806640625), np.float64(2995.398681640625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFCA40>)",
+        "text": "DIW Berlin — Deutsches Institut fur Wirtschaftsforschung e. V. Anton-Wilhelm-Amo-StraBe 58, 10117 Berlin www.diw.de Phone: +49 30 897 89-0 Fax: —200 Volume15 October 1, 2025"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(134.51950073242188), np.float64(3275.72607421875)), (np.float64(134.51950073242188), np.float64(3310.123779296875)), (np.float64(293.0501403808594), np.float64(3310.123779296875)), (np.float64(293.0501403808594), np.float64(3275.72607421875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE7E0>)",
+        "text": "Publishers"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(126.37440490722656), np.float64(3323.709716796875)), (np.float64(126.37440490722656), np.float64(3512.63818359375)), (np.float64(1231.022216796875), np.float64(3512.63818359375)), (np.float64(1231.022216796875), np.float64(3323.709716796875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFEBD0>)",
+        "text": "Prof. Anna Bindler, Ph.D.; Prof. Dr. Tomaso Duso; Sabine Fiedler; Prof. Marcel Fratzscher, Ph.D.; Prof. Dr. Peter Haan; Prof. Dr. Claudia Kemfert; Prof. Dr. Alexander S. Kritikos; Prof. Dr. Alexander Kriwoluzky; Prof. Karsten Neuhoff, Ph.D.; Prof. Dr. Sabine Zinn"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(137.54971313476562), np.float64(3544.4541015625)), (np.float64(137.54971313476562), np.float64(3578.697021484375)), (np.float64(355.26947021484375), np.float64(3578.697021484375)), (np.float64(355.26947021484375), np.float64(3544.4541015625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFF2C0>)",
+        "text": "Editors-in-chief"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(136.49803161621094), np.float64(3593.590087890625)), (np.float64(136.49803161621094), np.float64(3679.34228515625)), (np.float64(1033.5943603515625), np.float64(3679.34228515625)), (np.float64(1033.5943603515625), np.float64(3593.590087890625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFF5C0>)",
+        "text": "Prof. Dr. Pio Baake; Claudia Cohnen-Beck; Sebastian Kollmann; Kristina van Deuverden"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(137.56675720214844), np.float64(3711.518310546875)), (np.float64(137.56675720214844), np.float64(3746.875732421875)), (np.float64(270.8436279296875), np.float64(3746.875732421875)), (np.float64(270.8436279296875), np.float64(3711.518310546875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFF8C0>)",
+        "text": "Reviewer"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(125.96153259277344), np.float64(3764.06982421875)), (np.float64(125.96153259277344), np.float64(3800.218017578125)), (np.float64(651.60205078125), np.float64(3800.218017578125)), (np.float64(651.60205078125), np.float64(3764.06982421875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFFA40>)",
+        "text": "Prof. Dr. Pio Baake; Dr. Stefan Bach"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(135.7924346923828), np.float64(3827.88037109375)), (np.float64(135.7924346923828), np.float64(3863.393798828125)), (np.float64(325.00238037109375), np.float64(3863.393798828125)), (np.float64(325.00238037109375), np.float64(3827.88037109375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFFBC0>)",
+        "text": "Editorial staff"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(136.16981506347656), np.float64(3878.50439453125)), (np.float64(136.16981506347656), np.float64(3962.98046875)), (np.float64(1140.629150390625), np.float64(3962.98046875)), (np.float64(1140.629150390625), np.float64(3878.50439453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFFD40>)",
+        "text": "Rebecca Buhner; Dr. Hella Engerer; Petra Jasper; Adam Mark Lederer; Frederik Schulz-Greve; Sandra Tubik"
+    },
+    {
+        "type": "Image",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1939.63818359375), np.float64(2520.05615234375)), (np.float64(1939.63818359375), np.float64(2763.422119140625)), (np.float64(2477.6767578125), np.float64(2763.422119140625)), (np.float64(2477.6767578125), np.float64(2520.05615234375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EE93A0>)",
+        "text": ""
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1305.184326171875), np.float64(2997.934814453125)), (np.float64(1305.184326171875), np.float64(3032.052734375)), (np.float64(1409.2554931640625), np.float64(3032.052734375)), (np.float64(1409.2554931640625), np.float64(2997.934814453125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD460>)",
+        "text": "Layout"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1309.3482666015625), np.float64(3046.3037109375)), (np.float64(1309.3482666015625), np.float64(3083.843994140625)), (np.float64(2148.26171875), np.float64(3083.843994140625)), (np.float64(2148.26171875), np.float64(3046.3037109375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFD820>)",
+        "text": "Roman Wilhelm; Stefanie Reeg; Eva Kretschmer, DIW Berlin"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1308.94873046875), np.float64(3124.218017578125)), (np.float64(1308.94873046875), np.float64(3198.795166015625)), (np.float64(1816.2784423828125), np.float64(3198.795166015625)), (np.float64(1816.2784423828125), np.float64(3124.218017578125))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFDBE0>)",
+        "text": "Cover design © imageBROKER / Steffen Diemer"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1310.8076171875), np.float64(3229.628662109375)), (np.float64(1310.8076171875), np.float64(3315.173828125)), (np.float64(2329.606201171875), np.float64(3315.173828125)), (np.float64(2329.606201171875), np.float64(3229.628662109375))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE000>)",
+        "text": "Composition Satz-Rechen-Zentrum Hartmann + Heenemann GmbH & Co. KG, Berlin"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1308.48193359375), np.float64(3232.40185546875)), (np.float64(1308.48193359375), np.float64(3266.594970703125)), (np.float64(1493.69775390625), np.float64(3266.594970703125)), (np.float64(1493.69775390625), np.float64(3232.40185546875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFE3C0>)",
+        "text": "Composition"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1313.7855224609375), np.float64(3387.70654296875)), (np.float64(1313.7855224609375), np.float64(3475.43408203125)), (np.float64(2144.42138671875), np.float64(3475.43408203125)), (np.float64(2144.42138671875), np.float64(3387.70654296875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFEF30>)",
+        "text": "Subscribe to our DIW and/or Weekly Report Newsletter at www.diw.de/newsletter_en"
+    },
+    {
+        "type": "Title",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1304.41650390625), np.float64(3545.739013671875)), (np.float64(1304.41650390625), np.float64(3578.197265625)), (np.float64(1559.502197265625), np.float64(3578.197265625)), (np.float64(1559.502197265625), np.float64(3545.739013671875))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFF440>)",
+        "text": "ISSN 2568-7697"
+    },
+    {
+        "type": "NarrativeText",
+        "page": 8,
+        "coordinates": "CoordinatesMetadata(points=((np.float64(1302.23681640625), np.float64(3595.515869140625)), (np.float64(1302.23681640625), np.float64(3732.2216796875)), (np.float64(2289.566162109375), np.float64(3732.2216796875)), (np.float64(2289.566162109375), np.float64(3595.515869140625))), system=<unstructured.documents.coordinates.PixelSpace object at 0x0000018F90EFF740>)",
+        "text": "Reprint and further distribution—including excerpts—with complete reference and consignment of a specimen copy to DIW Berlin's Customer Service (kundenservice@diw.de) only."
+    }
+]

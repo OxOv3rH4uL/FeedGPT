@@ -1,0 +1,33 @@
+import { DocumentService } from "./documents.service.js";
+import { FastifyInstance } from "fastify";
+
+export async function documentRoutes(app:FastifyInstance){
+    const documentService = new DocumentService();
+    app.post("/documents",async(req,res)=>{
+        const file = await req.file();
+
+        if(!file){
+            return res.code(400).send({
+                error:"File not uploaded"
+            })
+        }
+        const fileName = file.filename;
+        const mimeType = file.mimetype;
+        if(mimeType != "application/pdf"){
+            return res.code(400).send({
+                error: "Only PDFs are supported"
+            })
+        }
+        try{
+
+            const filebuffer = await file.toBuffer();
+            const document = await documentService.uploadDocument(fileName,mimeType,filebuffer);
+            return res.code(201).send(document)  
+        }catch(error){
+            req.log.error(error);
+            return res.code(500).send({
+                error: "Failed to upload document"
+            })
+        }
+    })
+}
