@@ -1,4 +1,4 @@
-import type { NormalizedBlock } from "../schema/schema"
+import type { NormalizedBlock } from "../models/block"
 
 export interface BlockIngestionJob{
     document_id:string;
@@ -6,4 +6,4 @@ export interface BlockIngestionJob{
     start_seq: number;
     end_seq: number;
     blocks: NormalizedBlock[];
-}
+}   

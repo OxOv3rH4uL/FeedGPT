@@ -116,6 +116,11 @@ function createBatchJob(document_id:string,batch_number:number,blocks: Normalize
 async function enqueueJob(job:BlockIngestionJob){
     await ingestionQueue.add("ingest-block-batch", job,{
         jobId: job.batchID,
+        attempts : 5,
+        backoff: {
+            type: "exponential",
+            delay: 1000
+        },
         removeOnComplete:true,
         removeOnFail:false
     })

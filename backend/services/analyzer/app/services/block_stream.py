@@ -21,7 +21,7 @@ class BlockStream:
         complete_event = CompleteEvent(document_id=document_id,block_count=bc)
 
         yield(
-            complete_event.model_dump_json + "\n"
+            complete_event.model_dump_json() + "\n"
         )
 
         
