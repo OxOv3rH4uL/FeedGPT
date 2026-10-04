@@ -54,6 +54,18 @@ services:
     
     volumes:
       - redis2_data:/data
+  
+  redis3:
+    image: redis
+    container_name: feedgpt-embedder-redis
+    restart: unless-stopped
+
+    ports:
+      - "6003:6379"
+    
+    volumes:
+      - redis3_data:/data
+
 
 
 volumes:
@@ -61,3 +73,4 @@ volumes:
   minio_data:
   redis_data:
   redis2_data:
+  redis3_data:

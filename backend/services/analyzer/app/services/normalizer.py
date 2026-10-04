@@ -45,7 +45,7 @@ def normalize_element(element:Element,document_id:str,sequence:int) -> Normalize
 
     metadata = {}
     if hasattr(element.metadata,"text_as_html"):
-        text_as_html = element.metada.text_as_html
+        text_as_html = element.metadata.text_as_html
 
         if text_as_html:
             metadata["text_as_html"] = text_as_html

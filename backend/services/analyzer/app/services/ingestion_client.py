@@ -16,7 +16,13 @@ class Ingestion_Client:
         if not self.base_url:
             raise ValueError("Ingestion url is not present")
 
-    def ingest(self,document_id:str,blocks:Iterator[NormalizedBlock]) -> dict:
+    def ingest(self,document_id:str,stream) -> dict:
         url = f"{self.base_url}/ingestion/{document_id}/blocks"
-        blocks_count = 0 
-        
+        with httpx.Client() as client:
+            response = client.post(url,
+                                   content = stream,
+                                   headers = {
+                                       "Content-Type": "application/x-ndjson"
+                                   })
+            response.raise_for_status()
+            return response.json()

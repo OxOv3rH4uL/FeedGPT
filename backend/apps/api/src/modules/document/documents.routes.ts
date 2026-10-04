@@ -11,7 +11,8 @@ export async function documentRoutes(app:FastifyInstance){
                 error:"File not uploaded"
             })
         }
-        const fileName = file.filename;
+        const fileName =
+         file.filename;
         const mimeType = file.mimetype;
         if(mimeType != "application/pdf"){
             return res.code(400).send({

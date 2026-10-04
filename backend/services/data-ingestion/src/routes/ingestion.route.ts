@@ -2,6 +2,7 @@ import type { FastifyInstance } from "fastify";
 import { createInterface } from "readline";
 import { streamEventSchema } from "../schema/schema";
 import { ingestionQueue } from "../queue/ingestion.queue";
+import { embedderQueue } from "../queue/embedder.queue";
 import type { NormalizedBlock } from "../models/block";
 import type { BlockIngestionJob } from "../models/ingestion_job";
 
@@ -120,6 +121,17 @@ async function enqueueJob(job:BlockIngestionJob){
         backoff: {
             type: "exponential",
             delay: 1000
+        },
+        removeOnComplete:true,
+        removeOnFail:false
+    })
+
+    await embedderQueue.add("embed-block-batch",job,{
+        jobId: job.batchID,
+        attempts: 5,
+        backoff: {
+            type:"exponential",
+            delay:1000
         },
         removeOnComplete:true,
         removeOnFail:false
