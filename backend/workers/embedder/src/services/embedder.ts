@@ -2,12 +2,15 @@ import { getTokenizer,getEmbedModel } from "./tokenizer";
 import { EmbedChunk } from "../models/chunk";
 import { VectorChunk } from "../models/vector_chunk";
 import { EMBEDDING_CONFIG } from "../config/embedding_config";
+import { PoolingService } from "./pooling";
+import { qdrantQueue } from "../queue/qdrant.queue";
 
 export class EmbedService{
     async embed(chunks: EmbedChunk[]): Promise<VectorChunk[]>{
         if(chunks.length == 0){
             return [];
         }
+        const pool = new PoolingService();
         const res : VectorChunk[] = [];
         const tokenizer = await getTokenizer();
         const model = await getEmbedModel();
@@ -19,16 +22,28 @@ export class EmbedService{
                 truncation:true
             })
             const op = await model(input);
-            const embeddings = op.sentence_embedding;
+            const embeddings = pool.meanPool(op.last_hidden_state,input.attention_mask);
+            const batchRes: VectorChunk[] = [];
             for(let i = 0; i < batch.length; i++){
-                const embedding = Array.from(embeddings[i].data as number[]);
+                const normalized = pool.normalizer(embeddings[i]);
+                // const embedding = Array.from(embeddings[i].data as number[]);
+                batchRes.push({
+                    chunk: batch[i],
+                    embeddings: normalized
+                })
                 res.push({
                     chunk: batch[i],
-                    embeddings: embedding
+                    embeddings: normalized
                 })
             }
+            await qdrantQueue.add("vector-upsert",{
+                document_id: batch[0].document_id,
+                chunks: batchRes
+            })
+            
         }
         return res;
+
         // for(let vc in res){
         //     //we will push the embedded chunk/vector chunk to the qdrant queue
         // }

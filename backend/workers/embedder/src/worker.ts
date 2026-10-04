@@ -1,11 +1,24 @@
 import {Worker} from "bullmq";
 import { EmbeddingJob } from "./models/embedding_job";
 import {redis} from "./redis"
+import { ChunkService } from "./services/chunker";
+import { EmbedService } from "./services/embedder";
+import { NormalizedBlock } from "./models/block";
+import { EmbedChunk } from "./models/chunk";
 
-
+const chunker = new ChunkService();
+const embedder = new EmbedService();
 const worker = new Worker<EmbeddingJob>("embeddings-ready",
     async(job) =>{
-        console.log(`Processing embedding job ${job.id}`)
+        // console.log(`Processing embedding job ${job.id}`)
+        const mass_chunks : EmbedChunk[] = [];
+        const blocks: NormalizedBlock[] = job.data.blocks;
+        for(const block of blocks){
+            const chunks: EmbedChunk[] = await chunker.chunkBlock(block);
+            mass_chunks.push(...chunks);
+        }
+        await embedder.embed(mass_chunks);   
+
 
     },{
         connection: redis,

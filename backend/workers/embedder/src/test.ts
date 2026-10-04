@@ -1,15 +1,29 @@
 import { getTokenizer,getEmbedModel } from "./services/tokenizer";
+import { PoolingService } from "./services/pooling";
 async function main(){
     const tokenizer = await getTokenizer();
     const model = await getEmbedModel();
+    const pool = new PoolingService();
     const text = "lemme change few stuffs and i will check, hope it is cached now hahahahahaha"
     const input = tokenizer(text,{
         padding:true,
         truncation:true
     })
     const op = await model(input);
-    console.log("model output");
-    console.dir(op,{depth:2});
+    // console.log("model output");
+    // console.dir(op,{depth:2});
+    const embedding = pool.meanPool(op.last_hidden_state,input.attention_mask);
+    // const normalized = pool.normalizer(embedding);
+    // console.log("First 10 values:", normalized.slice(0, 10));
+
+    // const magnitude = Math.sqrt(
+    //     normalized.reduce(
+    //         (sum, value) => sum + value * value,
+    //         0
+    //     )
+    // );
+
+    // console.log("Magnitude:", magnitude);
 }
 main().catch((error) => {
     console.error("Embedding test failed:", error);

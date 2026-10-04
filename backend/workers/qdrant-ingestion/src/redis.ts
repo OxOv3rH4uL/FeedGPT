@@ -9,11 +9,3 @@ export const redis = new IORedis({
     port: Number(process.env.REDIS_PORT),
     maxRetriesPerRequest: null
 })
-
-
-export const qdrant_redis = new IORedis({
-    host: process.env.REDIS_QDRANT_HOST,
-    port: Number(process.env.REDIS_QDRANT_PORT),
-    maxRetriesPerRequest: null
-})
-
