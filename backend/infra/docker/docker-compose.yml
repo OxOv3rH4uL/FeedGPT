@@ -77,6 +77,18 @@ services:
     volumes:
       - redis4_data:/data
   
+  redis5:
+    image: redis
+    container_name: feedgpt-state-redis
+    restart: unless-stopped
+
+    ports:
+      - "6005:6379"
+    
+    volumes:
+      - redis5_data:/data
+    
+  
   qdrant:
     image: qdrant/qdrant
     restart: unless-stopped
@@ -95,4 +107,5 @@ volumes:
   redis2_data:
   redis3_data:
   redis4_data:
+  redis5_data:
   qdrant_data:
