@@ -51,4 +51,34 @@ export class StateManagementService{
             1
         )
     }
+    async getState(document_id : string) : Promise<{
+        document_id: string,
+        status: "PROCESSING" | "READY",
+        analyzer_completed: boolean,
+        block_jobs_total: Number,
+        block_jobs_completed: Number,
+        qdrant_jobs_total: Number,
+        qdrant_jobs_completed: Number
+    }>{
+        const state = await redis_state.hgetall(
+            `processing:${document_id}`
+        )
+        const analyzer_completed = state.analyzer_completed === "true";
+        const block_jobs_total = Number(state.block_jobs_total ?? 0);
+        const block_jobs_completed = Number(state.block_jobs_completed ?? 0);
+        const qdrant_jobs_total = Number(state.qdrant_jobs_total ?? 0);
+        const qdrant_jobs_completed = Number(state.qdrant_jobs_completed??0);
+
+        const ready = analyzer_completed && block_jobs_total === block_jobs_completed && qdrant_jobs_total === qdrant_jobs_completed;
+
+        return {
+            document_id : document_id,
+            status : ready ? "READY" : "PROCESSING",
+            analyzer_completed : analyzer_completed,
+            block_jobs_total : block_jobs_total,
+            block_jobs_completed : block_jobs_completed,
+            qdrant_jobs_total : qdrant_jobs_total,
+            qdrant_jobs_completed : qdrant_jobs_completed
+        }
+    }
 }

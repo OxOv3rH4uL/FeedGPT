@@ -16,11 +16,7 @@ async function start(){
     
         },{
             connection: redis,
-            concurrency:5,
-            limiter:{
-                max:10,
-                duration: 1000
-            }
+            concurrency:20    
         }
     )
     

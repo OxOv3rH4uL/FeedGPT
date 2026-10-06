@@ -53,11 +53,19 @@ export default function Home() {
       const response = await axios.post(
         `${API_URL}/documents`,formData
       );
-      const data = response.data;
-      setStatus("success");
-      setMessage(
-        `Upload successful. Document ID: ${data.id}`,
-      );
+      if(response.status === 200){
+        const data = response.data;
+        setStatus("success");
+        setMessage(
+          `Upload successful. Document ID: ${data.id}`,
+          //set in localstorage or something [important]
+        );
+      }else{
+        setStatus("success");
+        setMessage(
+          `Upload is not successful broski`,
+        );
+      }
     } catch (error) {
       console.error(error);
 

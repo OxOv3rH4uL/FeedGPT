@@ -23,7 +23,7 @@ export async function documentRoutes(app:FastifyInstance){
 
             const filebuffer = await file.toBuffer();
             const document = await documentService.uploadDocument(fileName,mimeType,filebuffer);
-            return res.code(201).send(document)  
+            return res.code(200).send(document)  
         }catch(error){
             req.log.error(error);
             return res.code(500).send({

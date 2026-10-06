@@ -12,3 +12,9 @@ export const redis = new IORedis({
     maxRetriesPerRequest: null
 })
 
+export const redis_state = new IORedis({
+    host: process.env.REDIS_STATE_HOST,
+    port: Number(process.env.REDIS_STATE_PORT),
+    maxRetriesPerRequest: null
+})
+
