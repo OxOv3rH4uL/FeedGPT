@@ -87,6 +87,17 @@ services:
     
     volumes:
       - redis5_data:/data
+  
+  redis6:
+    image: redis
+    container_name: feedgpt-query-cache
+    restart: unless-stopped
+
+    ports:
+      - "6006:6379"
+    
+    volumes:
+      - redis6_data:/data
     
   
   qdrant:
@@ -108,4 +119,5 @@ volumes:
   redis3_data:
   redis4_data:
   redis5_data:
+  redis6_data:
   qdrant_data:

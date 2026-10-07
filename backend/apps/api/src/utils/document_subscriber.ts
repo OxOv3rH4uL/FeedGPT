@@ -1,6 +1,6 @@
 import { redis_state, redis } from "../queue/redis";
 
-//i jus complicated too much, lets jus simply get the key while frontend does the pooling/ws/sse
+//i jus complicated too much, lets jus simply get the key while frontend does the pooling/ws/sse. So this is not required
 export async function waitForProcessing(document_id: string, timeout = 30 * 60_000): Promise<string> {
   console.log("NAAAAAAA IRUKEEEEEEEEEEEEEN BHAAIIIIIIIIIIIIIIIIIIIIIIIIII")
   const sub = redis.duplicate();
