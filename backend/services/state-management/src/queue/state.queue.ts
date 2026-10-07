@@ -10,6 +10,7 @@ export function CheckStatus(){
         async(job) =>{
             let final_result :{status: string} | undefined; 
             const e = job.data;
+            console.log(job.data);
             if(e.type === "started"){
                 final_result = await state_manager.started(e.document_id);
             }else if(e.type === "stream_completed"){

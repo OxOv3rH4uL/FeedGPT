@@ -1,6 +1,6 @@
 import IORedis  from 'ioredis';
 import {Queue} from "bullmq";
-import { redis_state } from '../redis';
+import { redis_state } from '../redis'; 
 
 const eventsQueue = new Queue("document_events",{
     connection: redis_state,

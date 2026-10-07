@@ -8,7 +8,9 @@ type UploadStatus =
   | "idle"
   | "uploading"
   | "success"
-  | "error";
+  | "error"
+  | "failed"
+  | "uploaded";
 
 export default function Home() {
   const [file, setFile] = useState<File | null>(null);
@@ -55,13 +57,24 @@ export default function Home() {
       );
       if(response.status === 200){
         const data = response.data;
-        setStatus("success");
+        setStatus("uploaded");
         setMessage(
-          `Upload successful. Document ID: ${data.id}`,
-          //set in localstorage or something [important]
-        );
+          `Upload successful. Time for processing`);
+        //need to implement ws or sse
+        const timer = setInterval(async ()=>{
+          const r = await axios.get(`${API_URL}/documents/${data.id}/status`);
+          if(r.data.status === "COMPLETED"){
+            clearInterval(timer);
+            setStatus("success");
+            setMessage("Document is ready, you can get the knowledge");
+          }else if(r.data.status === "PARTIAL" || r.data.status === "FAILED"){
+            clearInterval(timer);
+            setStatus("error");
+            setMessage("Document failed to process, vera yethana pdf try panra dei")
+          }
+        }, 3000);
       }else{
-        setStatus("success");
+        setStatus("failed");
         setMessage(
           `Upload is not successful broski`,
         );

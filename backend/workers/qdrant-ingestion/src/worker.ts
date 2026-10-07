@@ -3,6 +3,7 @@ import { redis } from "./redis";
 import { QdrantUpsertService } from "./services/qdrant_upsert";
 import { qdrantCollectionSetup } from "./services/qdrant_setup";
 import { QdrantJob } from "./models/qdrant_job";
+import { emit } from "./utils/event";
 
 async function start(){
 
@@ -13,13 +14,14 @@ async function start(){
         async(job) => {
             const chunks = job.data.chunks;
             await upserter.upsert(chunks);
+            
     
         },{
             connection: redis,
             concurrency:20    
         }
     )
-    
+
     
     worker.on("completed", (job) => {
     

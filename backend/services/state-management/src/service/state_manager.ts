@@ -42,13 +42,14 @@ export class StateManagementService{
 
         ])
 
-        if(pg + failed_pg < total || qdrant + failed_qdrant < total){
+        if(qdrant + failed_qdrant < total){
             return {
                 status: "PROCESSING"
             };
         }
 
-        const final_status = failed_pg + failed_qdrant > 0 ? "PARTIAL" : "COMPLETED";
+        const final_status = failed_qdrant > 0 ? "PARTIAL" : "COMPLETED";
+        console.log(final_status);
         const caller = await redis_state.set(`doc:${document_id}:final`,final_status,"NX");
         if(caller === "OK"){
             await redis_state.hset(`doc:${document_id}`,"status",final_status);

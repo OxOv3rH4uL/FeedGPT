@@ -5,6 +5,7 @@ import { ChunkService } from "./services/chunker";
 import { EmbedService } from "./services/embedder";
 import { NormalizedBlock } from "./models/block";
 import { EmbedChunk } from "./models/chunk";
+import { emit } from "./utils/event";
 
 const chunker = new ChunkService();
 const embedder = new EmbedService();
@@ -17,7 +18,13 @@ const worker = new Worker<EmbeddingJob>("embeddings-ready",
             const chunks: EmbedChunk[] = await chunker.chunkBlock(block);
             mass_chunks.push(...chunks);
         }
-        await embedder.embed(mass_chunks);   
+        await embedder.embed(mass_chunks);  
+        await emit({
+            type:"qdrant_done",
+            document_id: job.data.document_id,
+            batch_id: job.data.batchID
+        })
+
 
 
     },{

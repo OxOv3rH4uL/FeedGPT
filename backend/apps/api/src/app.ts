@@ -1,7 +1,7 @@
 import fastify from "fastify";
 import multipart from "@fastify/multipart";
 import { documentRoutes } from "./modules/document/documents.routes";
-
+import cors from "@fastify/cors";
 export function buildApp(){
     const app= fastify({
         logger:true
@@ -16,7 +16,9 @@ export function buildApp(){
             status:"alive broski"
         };
     });
-
+    app.register(cors,{
+        origin:"*"
+    });
     app.register(documentRoutes)
 
 

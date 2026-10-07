@@ -5,6 +5,7 @@ import { ingestionQueue } from "../queue/ingestion.queue";
 import { embedderQueue } from "../queue/embedder.queue";
 import type { NormalizedBlock } from "../models/block";
 import type { BlockIngestionJob } from "../models/ingestion_job";
+import { emit } from "../utils/events";
 
 const BATCH_SIZE=500;
 interface ingestionParams{
@@ -92,7 +93,14 @@ export async function ingestRoute(app: FastifyInstance){
         if(batch.length > 0){
             const job = createBatchJob(document_id,batch_number,batch);
             await enqueueJob(job);
+            batch_number++;
         }
+        console.log(`Document ID:${document_id} hasssssss  ${batch_number} batches total baaakaaaa`);
+        await emit({
+            type:"stream_completed",
+            document_id:document_id,
+            total_block_jobs: batch_number
+        })
         return res.code(200).send({
             document_id,
             block_count: total,
