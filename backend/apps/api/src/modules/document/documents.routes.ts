@@ -1,5 +1,6 @@
 import { DocumentService } from "./documents.service.js";
 import { FastifyInstance } from "fastify";
+import { waitForProcessing } from "../../utils/document_subscriber.js";
 
 export async function documentRoutes(app:FastifyInstance){
     const documentService = new DocumentService();
@@ -22,8 +23,15 @@ export async function documentRoutes(app:FastifyInstance){
         try{
 
             const filebuffer = await file.toBuffer();
-            const document = await documentService.uploadDocument(fileName,mimeType,filebuffer);
-            return res.code(200).send(document)  
+            const documentz = await documentService.uploadDocument(fileName,mimeType,filebuffer);
+            const document_status = await waitForProcessing(documentz.id);
+            if(document_status !== "COMPLETED"){
+                return res.code(400).send({
+                    "message":"Document failed to process but successfully uploaded i believe lmao"
+                })
+            }else{
+                return res.code(200).send(document)  
+            }
         }catch(error){
             req.log.error(error);
             return res.code(500).send({

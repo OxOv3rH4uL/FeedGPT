@@ -52,6 +52,7 @@ export class StateManagementService{
         const caller = await redis_state.set(`doc:${document_id}:final`,final_status,"NX");
         if(caller === "OK"){
             await redis_state.hset(`doc:${document_id}`,"status",final_status);
+            await redis_state.set(`docstatus:${document_id}`,final_status, "EX" , 60*60*24*30);
             await redis_document.publish(`doc-done:${document_id}`, final_status);
             flag = true;
         }
