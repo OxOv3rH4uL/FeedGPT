@@ -2,12 +2,18 @@ import os
 from transformers import AutoTokenizer, AutoModel 
 import torch
 from dotenv import load_dotenv
+from app.services.query_cache import QueryCache
+from app.utils.hash_key import embedding_key as cache_key
 load_dotenv()
+
+
 class QueryEmbedding:
     def __init__(self):
         self.model_name = os.getenv("MODEL_NAME")
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.model = AutoModel.from_pretrained(self.model_name)
+        self.cache = QueryCache()
+        
 
     def tokenize(self,query:str):
         ip = self.tokenizer(query,return_tensors="pt",truncation=True,padding=True)
@@ -30,10 +36,19 @@ class QueryEmbedding:
         )
         return embedding
 
-    def embed(self, query:str) -> list[float]:
+    async def embed(self, query:str) -> list[float]:
+        key = cache_key(query=query,model=self.model_name)
+        cached = await self.cache.get(query=query)
+
+        if cached is not None:
+            return cached, "HIT"
+        
         [ip,op] = self.tokenize(query)
         pooled = self.mean_pooling(op,ip["attention_mask"])
         normalized = self.normalize(pooled)
-        return normalized.squeeze(0).tolist()
+        normalized = normalized.squeeze(0).tolist()
+        # return normalized.squeeze(0).tolist()
+        await self.cache.set(query=key,embedding=normalized)
+        return normalized, "MISS"
     
 
