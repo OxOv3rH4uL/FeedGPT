@@ -1,6 +1,7 @@
 import { qdrant } from "../utils/qdrant";
 import { VectorChunk } from "../models/vector_chunk";
 import { QDRANT_CONFIG } from "../config/qdrant_config";
+import { toSparse } from "../utils/sparse_vector";
 
 export class QdrantUpsertService{
     async upsert(chunks: VectorChunk[]): Promise<void>{
@@ -10,7 +11,10 @@ export class QdrantUpsertService{
 
         const points = chunks.map(chunk => ({
             id: chunk.chunk.chunk_id,
-            vector: chunk.embeddings,
+            vector: {
+                dense: chunk.embeddings,
+                bm25: toSparse(chunk.chunk.text)
+            },
             payload:{
                 document_id: chunk.chunk.document_id,
                 block_id: chunk.chunk.block_id,

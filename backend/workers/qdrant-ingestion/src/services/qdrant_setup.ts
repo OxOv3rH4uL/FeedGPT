@@ -9,9 +9,18 @@ export async function qdrantCollectionSetup():  Promise<void>{
     }
     await qdrant.createCollection(QDRANT_CONFIG.collectionName,{
         vectors:{
-            size: QDRANT_CONFIG.vectorSize,
-            distance: "Cosine"
-        }
+            dense:{
+                size: QDRANT_CONFIG.vectorSize,
+                distance: "Cosine"
+            }
+        },
+        sparse_vectors: {bm25: {modifier: "idf"}}
     })
+    await qdrant.createPayloadIndex(QDRANT_CONFIG.collectionName,{
+        field_name: "document_id",
+        field_schema: "keyword"
+    })
+
+
     console.log("FeedGPT Collection Created bro!!");
 }
