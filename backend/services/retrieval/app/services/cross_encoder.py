@@ -3,7 +3,7 @@ from sentence_transformers import CrossEncoder
 import asyncio
 class CrossEncoderService:
     def __init__(self):
-        self.reranker = CrossEncoder("BAAI/bge-reranker-base", max_size = 384) #i hope it is dimension
+        self.reranker = CrossEncoder("BAAI/bge-reranker-base") #i hope it is dimension
 
     async def rerank(self,query:str,points,top:int=5,timeout:float=5.0):
         if not points:

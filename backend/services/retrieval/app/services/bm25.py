@@ -9,7 +9,7 @@ load_dotenv()
 class BM25Search:
     def __init__(self):
         self.collection_name = os.getenv("QDRANT_COLLECTION")
-    async def search(self, query: str, document_id: str, k: int = 50):
+    async def search(self, query: str, document_id: str, k: int = 60):
 
         idx, _ = to_sparse(query)
         if not idx:              

@@ -10,7 +10,7 @@ pipeline = Pipeline()
 
 @app.post("/chat")
 async def chat():
-    document_id = "aeab9c8b-0025-404a-b584-d300cbdc9089"
+    document_id = "d591dd20-fa5c-448a-9107-f09698bf9d8d"
     query = "Define productivity"
     return await pipeline.retrieve(query=query,document_id=document_id)
     

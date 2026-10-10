@@ -14,7 +14,7 @@ class Pipeline:
 
     async def retrieve(self,query:str,document_id:str):
         embedding,status = await self.query_embedding.embed(query=query)
-        chunks_1= await  self.semantic_search.search(embedding=embedding,document_id=document_id),
+        chunks_1= await  self.semantic_search.search(embedding=embedding,document_id=document_id)
         chunks_2 = await self.bm25_search.search(query=query,document_id=document_id)
         candidates = self.reciprocal_rank_fusion.rrf(chunks_1,chunks_2)
         best_chunks, score = await self.cross_encoder.rerank(query,candidates)

@@ -8,10 +8,11 @@ class SemanticSearch:
     def __init__(self):
         self.collection_name = os.getenv("QDRANT_COLLECTION")
 
-    async def search(self,embedding: list[float], document_id: str,  k: int = 50):
+    async def search(self,embedding: list[float], document_id: str,  k: int = 60):
         results = await client.query_points(
             collection_name = self.collection_name,
             query=embedding,
+            using="dense",
             query_filter=Filter(
                 must=[
                     FieldCondition(
@@ -22,7 +23,8 @@ class SemanticSearch:
                     )
                 ]
             ),
-            limit=k
+            limit=k,
+            with_payload=True,
         )
         return results.points
     
