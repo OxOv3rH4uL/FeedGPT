@@ -3,6 +3,7 @@ from app.services.query_embedding import QueryEmbedding
 from app.services.bm25 import BM25Search
 from app.services.reciprocal_rank_fusion import ReciprocalRankFusion
 from app.services.cross_encoder import CrossEncoderService
+
 class Pipeline:
     def __init__(self):
         self.semantic_search = SemanticSearch()
@@ -10,6 +11,7 @@ class Pipeline:
         self.bm25_search = BM25Search()
         self.reciprocal_rank_fusion = ReciprocalRankFusion()
         self.cross_encoder = CrossEncoderService()
+        
         
 
     async def retrieve(self,query:str,document_id:str):
@@ -21,3 +23,6 @@ class Pipeline:
         if score is not None and score < 0.05:
             return None
         return best_chunks
+
+
+    

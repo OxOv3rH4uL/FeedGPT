@@ -6,3 +6,4 @@ class ChatRequest(BaseModel):
     llm_api_url: str
     llm_api_key: str
     llm_model : str
+    
