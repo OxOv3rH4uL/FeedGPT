@@ -39,8 +39,10 @@ async def chat(body:ChatRequest):
         raise HTTPException(400,"Some error occurred, i think document is not ready yet")
     
     chunks = context_builder.build_context(points)
+    print(chunks)
 
     async def stream():
+        print("I'm stream function")
         try:
             if not chunks:
                 yield sse("token",{"t":"Document is not ready yet or it is not available atp"})
@@ -50,10 +52,13 @@ async def chat(body:ChatRequest):
             yield sse("sources", [{"n": c["n"], "page": c["page"], "block_id": c["block_id"]} for c in chunks])
             messages = context_builder.build_messages(body.query, chunks)
 
+
             async with llm_semaphore:
                 async with asyncio.timeout(90):
                     async for token in llm.llm_stream(body.llm_api_url,body.llm_api_key,body.llm_model,messages):
+                        # print(token)
                         yield sse("token",{"t":token})
+            
 
             yield sse("done",{})
 

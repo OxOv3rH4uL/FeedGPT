@@ -20,6 +20,8 @@ import {
   Sparkles,
   UserRound,
   X,
+  BookOpen,
+  
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -28,11 +30,21 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
+type Source = {
+  n: number;
+  page: number;
+  block_id: string;
+};
+
 type Message = {
   id: string;
   role: "user" | "assistant";
   content: string;
-};
+  sources?: Source[];
+};  
+
+
+
 
 type LLMConfig = {
   apiUrl: string;
@@ -40,8 +52,7 @@ type LLMConfig = {
   model: string;
 };
 
-const API_URL =
-  process.env.NEXT_PUBLIC_RETRIEVAL_API_URL ?? "http://localhost:8000";
+const API_URL = "http://localhost:9996"
 
 const LLM_CONFIG_KEY = "feedgpt_llm_config";
 
@@ -61,6 +72,7 @@ export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [isStreaming, setIsStreaming] = useState(false);
   const [error, setError] = useState("");
+  const [expandSources, setExpandSources] = useState<Record<string,boolean>>({});
 
 
   const abortRef = useRef<AbortController | null>(null);
@@ -127,7 +139,6 @@ export default function ChatPage() {
     apiKey: config.apiKey.trim(),
     model: config.model.trim(),
     };
-    // Credentials remain in component memory; do not persist the API key.
     
     try {
         localStorage.setItem(
@@ -189,49 +200,76 @@ export default function ChatPage() {
     }
 
     try {
-      // The backend must explicitly support these request fields.
-      // We will align this contract with the FastAPI implementation next.
-      const response = await axios.post(
-        `${API_URL}/chat`,
-        {
+      const response = await fetch(`${API_URL}/chat`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "text/event-stream" },
+        body: JSON.stringify({
           document_id: documentId,
           query,
-          llm_api_url: config.apiUrl,
-          llm_api_key: config.apiKey,
-          llm_model: config.model,
-        },
-        {
-          signal: controller.signal,
-          responseType: "text",
-          headers: {
-            Accept: "text/event-stream",
-            "Content-Type": "application/json",
-          },
-          onDownloadProgress: undefined,
+          llm_api_url: config.apiUrl.trim(),
+          llm_api_key: config.apiKey.trim(),
+          llm_model: config.model.trim(),
+        }),
+        signal: controller.signal,
+      });
+
+      if (!response.ok) {
+        const err = await response.json().catch(() => null);
+        throw new Error(typeof err?.detail === "string" ? err.detail : "The request failed.");
+      }
+
+      const reader = response.body!.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const events = buffer.split("\n\n");
+        buffer = events.pop() ?? "";          
+        console.log(events)
+        for (const raw of events) {
+          let event = "message";
+          let data = "";
+          for (const rawline of raw.split(/\r?\n/)) {
+            const line = rawline.trimStart();
+            if (line.startsWith("event:")) event = line.slice(6).trim();
+            else if (line.startsWith("data:")) data += line.slice(5).trimStart();
+          }
+          if (!data) continue;
+
+          const payload = JSON.parse(data);
+          if (event === "token") appendToken(payload.t);
+          else if (event === "sources" && Array.isArray(payload)) {
+            const sources = payload.filter(
+              (item): item is Source =>
+                typeof item === "object" &&
+                item !== null &&
+                typeof item.n === "number" &&
+                typeof item.page === "number" &&
+                typeof item.block_id === "string"
+            );
+
+            setMessages((previous) =>
+              previous.map((message) =>
+                message.id === assistantMessage.id
+                  ? { ...message, sources }
+                  : message
+              )
+            );
+          }
+          else if (event === "error") throw new Error(payload.message);
+          console.log(payload);
         }
-      );
-
-      // This currently handles a complete text response.
-      // Incremental Axios SSE parsing will be implemented next.
-      const result =
-        typeof response.data === "string"
-          ? response.data
-          : JSON.stringify(response.data);
-
-      appendToken(result);
+      }
     } catch (err) {
-      if (axios.isCancel(err)) return;
+      if (err instanceof DOMException && err.name === "AbortError") return;
 
-      setError(
-        axios.isAxiosError(err)
-          ? err.response?.data?.detail ??
-              "The request failed. Check your API configuration and backend."
-          : "Something went wrong while generating the answer."
-      );
-
-      setMessages((previous) =>
-        previous.filter((message) => message.id !== assistantMessage.id)
-      );
+      setError(err instanceof Error ? err.message : "Something went wrong while generating the answer.");
+      // remove the assistant bubble only if it's still empty
+      setMessages((prev) => prev.filter((m) => !(m.id === assistantMessage.id && m.content === "")));
     } finally {
       abortRef.current = null;
       setIsStreaming(false);
@@ -321,7 +359,7 @@ export default function ChatPage() {
                       apiUrl: event.target.value,
                     }))
                   }
-                  placeholder="https://your-provider.example/v1/chat/completions"
+                  placeholder="https://your-provider.example/v1"
                   className="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm text-white outline-none transition placeholder:text-zinc-600 focus:border-violet-400/60 focus:ring-2 focus:ring-violet-500/10"
                 />
               </div>
@@ -372,7 +410,7 @@ export default function ChatPage() {
                       model: event.target.value,
                     }))
                   }
-                  placeholder="e.g. gpt-4o-mini"
+                  placeholder="qwen/qwen3.8-27b"
                   className="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 text-sm text-white outline-none transition placeholder:text-zinc-600 focus:border-violet-400/60 focus:ring-2 focus:ring-violet-500/10"
                 />
               </div>
@@ -512,10 +550,10 @@ export default function ChatPage() {
 
                 <div className="mt-7 grid w-full max-w-xl gap-3 sm:grid-cols-2">
                   {[
-                    "Define productivity",
-                    "Summarize the main findings",
-                    "What are the key statistics?",
-                    "Explain the conclusion",
+                    "Ask anything",
+                    "It should work",
+                    "I hope you gonna ask simple questions",
+                    "I hate AI",
                   ].map((suggestion) => (
                     <button
                       key={suggestion}
@@ -554,6 +592,58 @@ export default function ChatPage() {
                             ? "Thinking..."
                             : "No response received.")}
                       </div>
+                      
+                      {message.role === "assistant" &&
+                        message.sources &&
+                        message.sources.length > 0 && (
+                          <div className="mt-4">
+                            <button
+                              type="button"
+                              onClick={() =>
+                                setExpandSources((previous) => ({
+                                  ...previous,
+                                  [message.id]: !previous[message.id],
+                                }))
+                              }
+                              aria-expanded={!!expandSources[message.id]}
+                              className="inline-flex items-center gap-2 rounded-lg border border-violet-400/20 bg-violet-500/[0.06] px-3 py-2 text-xs font-medium text-violet-300 transition hover:border-violet-400/40 hover:bg-violet-500/[0.12]"
+                            >
+                              <BookOpen className="size-4" />
+                              {expandSources[message.id]
+                                ? "Hide sources"
+                                : `View sources (${message.sources.length})`}
+                            </button>
+
+                            {expandSources[message.id] && (
+                              <div className="mt-3 rounded-xl border border-white/[0.08] bg-white/[0.025] p-4">
+                                <p className="mb-2 text-sm font-semibold text-zinc-200">
+                                  Sources
+                                </p>
+
+                                <p className="text-sm leading-6 text-zinc-300">
+                                  Pages: {message.sources.map((source) => source.page).join(", ")}
+                                </p>
+
+                                <div className="mt-3 space-y-2">
+                                  {message.sources.map((source) => (
+                                    <div
+                                      key={`${source.n}-${source.block_id}`}
+                                      className="rounded-lg border border-white/[0.06] bg-black/10 p-3"
+                                    >
+                                      <p className="text-xs font-medium text-violet-300">
+                                        Source {source.n} · Page {source.page}
+                                      </p>
+                                      <p className="mt-1 break-all text-xs text-zinc-500">
+                                        Block ID: {source.block_id}
+                                      </p>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        )}
+
                     </div>
                   </div>
                 ))}
