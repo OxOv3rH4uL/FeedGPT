@@ -19,6 +19,9 @@ class Pipeline:
         chunks_1= await  self.semantic_search.search(embedding=embedding,document_id=document_id)
         chunks_2 = await self.bm25_search.search(query=query,document_id=document_id)
         candidates = self.reciprocal_rank_fusion.rrf(chunks_1,chunks_2)
+        candidates = [p for p in candidates if (p.payload.get("token_count") or 0) >= 10]
+        if not candidates:
+            return None
         best_chunks, score = await self.cross_encoder.rerank(query,candidates)
         if score is not None and score < 0.05:
             return None

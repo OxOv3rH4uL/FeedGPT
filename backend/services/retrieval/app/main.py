@@ -15,9 +15,10 @@ app = FastAPI(
     title="FeedGPT Retrieval Service"
 )
 app.add_middleware(CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000","http://127.0.0.1"],
     allow_methods=["*"], 
-    allow_headers=["Content-Type"]
+    allow_headers=["*"],
+    allow_credentials=True,
 )
 
 llm_semaphore = asyncio.Semaphore(20)
@@ -32,7 +33,7 @@ async def chat(body:ChatRequest):
     try:
         await validate_llm_url(body.llm_api_url)
     except ValueError as e:
-        raise HTTPException(400,str(e))
+        raise HTTPException(400,"Am i the cuplrit?")
 
     points = await pipeline.retrieve(body.query,body.document_id)
     if not points:
