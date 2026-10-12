@@ -1,0 +1,11 @@
+analyzer service - 9999 (enable .venv)
+data-ingestion service - 9998
+state-management service - 9997 
+retrieval service - 9996 (enable .venv)
+main service - 8000
+
+call dispatcher worker
+call block-ingestion worker
+call embedder worker
+call qdrant-ingestion worker
+
