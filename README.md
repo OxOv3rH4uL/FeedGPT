@@ -121,13 +121,13 @@ Then:
 ---
 
 ## Technology Stack
-Frontend: Next.js, React, Typescript, Shadcn/ui, TailwindCSS
-Backend: Node.js, Fastify, Python, FastAPI
-Database & ORM: PostgreSQL, Qdrant, Prisma
-Object Storage: MinIO
-Queue & Messaging: Redis, BullMQ
-Embedding & Reranking: Sentence Transformers, PyTorch, Xenova/bge-small-en-v1.5(Node compatible), BAAI/bge-small-en-v1.5(Python), BAAI/bge-reranker-base (Cross Encoder)
-Containerization: Docker, Docker Compose
+- Frontend: Next.js, React, Typescript, Shadcn/ui, TailwindCSS
+- Backend: Node.js, Fastify, Python, FastAPI
+- Database & ORM: PostgreSQL, Qdrant, Prisma
+- Object Storage: MinIO
+- Queue & Messaging: Redis, BullMQ
+- Embedding & Reranking: Sentence Transformers, PyTorch, Xenova/bge-small-en-v1.5(Node compatible), BAAI/bge-small-en-v1.5(Python), BAAI/bge-reranker-base (Cross Encoder)
+- Containerization: Docker, Docker Compose
 
 ## End Note
 On to the next oneeee (AI Inference!)
